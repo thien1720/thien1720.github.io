@@ -1,0 +1,71 @@
+html{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#main{
+    margin: 0;
+    padding: 0;
+    background-color: #a8b1a8;
+    height: auto;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+}
+#main .row-style{
+    flex-basis: 20%;
+
+}
+.style-img{
+    width: auto;
+    height: 150px;
+}
+.list-name{
+    font-size: 10px;
+}
+.list-name .name-live{
+    font-size: 15px;
+    
+}
+.row-tick{
+    display: flex;
+    justify-content: flex-start;
+    
+    margin-right: 100px;
+    background-color: #a8b1a8;
+    width: 100%;
+}
+.row1{
+    flex: 1;
+}
+.row2{
+    flex: 1;
+}
+.row3{
+    flex: 1;
+}
+.row4{
+    flex: 1;
+}
+.row5{
+    flex: 1;    
+}
+.name-tick button{
+    background-color: black;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    padding: 10px;
+    margin-right:210px ;
+    
+}
+.name-tick button:hover{
+    background-color: #fff;
+    color:#333;
+
+}
+
+
+
