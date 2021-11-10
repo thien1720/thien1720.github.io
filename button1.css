@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: #ddd;
+
+}
+.menu-list > p{
+    text-align: center;
+    font-size: 30px;
+    color: lightgoldenrodyellow;
+    padding-top: 30px;
+    
+}
+ul li{
+    list-style-type: none;
+    padding: 0 10px;
+    
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

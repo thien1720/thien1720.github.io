@@ -2,67 +2,70 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 html{
     font-family: 'Roboto', sans-serif;
 }
-.main{
-    border:1px solid #ccc;
-    border-radius: 5px;
-    width: 400px;
-    position: relative;
-    top: 50px;
-    left: 50px;
-}
-.date{
-    background-color: #fe6d3f;
-    color: #fff;
-    text-align: center;
-    width: 100%;
+#main{
+    margin: 0;
+    padding: 0;
     
-}
-.date-year{
-    background-color: #ef5321;
-    font-size: 16px;
+    height: auto;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border: 1px solid #ddd;
 
     
-
 }
-.date-day{
-    font-size: 40px;
-}
-.date-month{
-    font-size: 16px;
-    background: top center;
-    padding-bottom: 30px;
+.row-menu{
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 336px;
     
 }
 
-.centent{
-    padding:16px 20px 0;
-
+.style-img{
+    width: 200px;
+    max-width: 100%;
+    height: 150px;
 }
-.content-heder{
-    font-size: 20px;
-    font-weight: 500;
+.list-name{
+    font-size: 10px;
+    color: #333;
 }
-.intro-incon,
-.content-text{
+.list-name .name-live{
     font-size: 15px;
+    
 }
-.intro-incon i{
-    margin-right: 5px;
+
+.list-name p{
+    line-height: 30px;
 }
-p.stres{
-    border:0.1px solid #333;
+.list-name .name2{
+    margin-top: -5px;
+    transform: translateY(-28px);
 }
-.sub{
-    color: #3c78e8;
-    padding: 7px 0;    
-    border: none;        
+   
+
+a button{
+    background-color: black;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 5px;
+    
+    
+    
 }
-.subcribe{
-    font-size: 16px;
-    text-decoration: none;
+a:hover button{
+    background-color: #fff;
+    color:#333;
+    
+
 }
