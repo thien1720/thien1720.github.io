@@ -1,0 +1,270 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Petemoss', cursive; */
+    
+}
+.row-full{
+    width:100%;
+}
+#main{
+
+}
+/* header */
+#header{
+    height: 46px;
+    background-color: #bbbb43;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#container{
+    display:flex;
+    justify-content: space-around;
+    
+}
+#container .container-list{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+#container .container-name > li,
+#container .container-list > li{
+   list-style-type: none; 
+    
+}
+#container .container-list  a{
+    text-decoration: none;
+    margin: 0 10px;
+    line-height: 46px;
+    color: #fff;
+    text-transform: uppercase;
+}
+#container .container-name {
+    font-size: 20px;
+    color: seashell;
+    text-transform: uppercase;
+    line-height: 46px;
+}
+.container > a:hover{
+    background-color: #ccc;
+    padding: 10px;
+}
+
+
+#container .container-name{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* slide */
+
+#slide{
+    background: url(https://scr.vn/wp-content/uploads/2021/01/Cau-noi-tieng-Anh-hay-va-y-nghia-ve-su-co-gang.jpg) top center /cover no-repeat;
+    position: relative;
+    min-height: 450px;
+    padding-top:45%;
+
+}
+/* content */
+#target-me,
+#content-me{
+    padding-top: 50px;
+}
+
+#content .content-headding{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+#content .content-headding h1,
+#content .target-headding h1{
+    font-weight: 600;
+}
+
+#content .content-img{
+    width: 600px;
+    height: 600px;
+}
+#content .content-about{
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-pro{
+    margin-top: 70px;
+    
+}
+.content-name{
+    color: #bbbb43;
+    font-size: 30px;
+    padding: 10px 0px;
+    
+}
+.content-list{
+    font-style: italic;
+    text-align: justify;
+    line-height: 1.6;
+    padding-right: 20px;
+    
+}
+#content .target-about{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+#blog .blog-header,
+#content .target-headding{
+    margin-top: 100px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#content .target-title{
+    
+    text-align: center;
+}
+#content .target-head{
+    padding: 10px;
+    text-align: center;
+    opacity: 0.7;
+    font-style: italic;
+    font-size: 15px;
+}
+#content .target-list-text{
+    padding: 50px;
+}
+.contact-img{
+    margin: 50px;
+    width: 900px;
+    
+}
+.contact-img >img,
+.target-img >img{
+    
+    height: 350px;
+    border-radius: 10px;
+
+}
+.target-img >img:hover{
+    opacity: 0.8;
+    width: 650px;
+
+}
+.target-img,
+.target-pro{
+    width: 50%;
+}
+.target-list-text{
+    text-align: justify;
+}
+.target-list b{
+    color: #bbbb43;
+    font-size: 24px;
+}
+.target-menu{
+    padding: 10px 0;
+}
+/* Phần contact */
+#contact{
+    margin-top: 50px;
+}
+#contact .contact-menu{
+    display: flex;
+    justify-content: space-around;
+}
+.contact-text{
+    width: 550px;
+    padding-right: 30px;
+    padding-top: 22px;
+    text-align: justify;
+}
+.contact-text >p{
+    padding-top: 10px;
+}
+.contact-menu-icon{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.contact-menu-icon >a{
+    text-decoration: none;
+    padding-top: 10px;
+    color: #bbbb43;
+    font-size: 16px;
+    margin-left: 5px;
+    
+}
+
+
+
+
+
+#blog{
+    margin-top: 100px;
+    width:100%;
+}
+
+#blog .blog-list-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 50px;
+
+}
+
+#blog .blog-img:hover{
+    opacity: 0.8;
+    width: 355px;
+    
+}
+#blog .blog-list-img .blog-img{
+    padding: 10px;
+    
+}
+.blog-img img{
+    border-radius: 15px;
+    width: 350px;
+    height: 200px;
+
+}
+.blog-photo-item{
+    
+}
+
+
+/* footer */
+#footer{
+    margin-top: 50px;
+}
+#footer > a{
+    color: #ccc;
+    font-size: 35px;
+    position: relative;
+    left: 90%;
+    padding: 20px;
+    
+}
+.footer-end{
+    height: 50px;
+    background-color: #bbbb43;
+}
+.footer-end a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    line-height: 50px;
+}
+.footer-end >a i{
+    line-height: 50px;
+}
