@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    font-family: 'Roboto', sans-serif;
+}
+.main{
+    border:1px solid #ccc;
+    border-radius: 5px;
+    width: 400px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+.date{
+    background-color: #fe6d3f;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    
+}
+.date-year{
+    background-color: #ef5321;
+    font-size: 16px;
+    height: 24px;
+    line-height: 24px;
+    
+
+}
+.date-day{
+    font-size: 40px;
+    padding-top: 20px;
+}
+.date-month{
+    font-size: 16px;
+    background: top center;
+    padding-bottom: 30px;
+    
+}
+
+.centent{
+    padding:16px 20px 0;
+
+}
+.content-heder{
+    font-size: 20px;
+    font-weight: 500;
+}
+.intro-incon,
+.content-text{
+    font-size: 15px;
+}
+.intro-incon i{
+    margin-right: 5px;
+}
+p.stres{
+    border:0.1px solid #333;
+}
+.sub{
+    color: #3c78e8;
+    padding: 7px 0;    
+    border: none;        
+}
+.subcribe{
+    font-size: 16px;
+    text-decoration: none;
+}
