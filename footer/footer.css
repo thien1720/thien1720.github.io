@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+#footer{
+    background: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    
+    padding:10px 0 ;
+
+}
+#footer .footer-menu-list {
+    font-size: 18px;
+    color: #fff;
+}
+.text-footer{
+    line-height: 35px;
+    color: #ccc;
+    font-size: 15px;
+}
+.text-footer a{
+    text-decoration: none;
+    color: #ccc;
+    font-size: 15px;
+    
+}
+.text-footer a:hover{
+    text-decoration:underline;
+
+}
