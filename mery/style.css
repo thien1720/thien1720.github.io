@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Petemoss', cursive;
+   
+    
+}
+
+#main{
+    background-image: url(https://img4.thuthuatphanmem.vn/uploads/2020/08/28/anh-background-giang-sinh-dep_091043343.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#background{
+    width: 600px;
+    height: 600px;
+    background-image: url(https://recmiennam.com/wp-content/uploads/2019/12/ngoi-sao-giang-sinh-1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    
+}
+
+.card-cold{
+    
+
+}
+.card-cold .cold-list{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    opacity: 0.7;
+    position: relative;
+    
+}
+.cold-list2{
+    position: absolute;
+    transform: scale(5) rotateZ(35deg);
+    filter: drop-shadow(9px 8px 8px 0.1px);
+}
+.cold-list3{
+    position:absolute;
+    transform: scale(2) rotateZ(120deg);
+    filter: drop-shadow(0px 8px 2px 0.1px);
+}
+
+.cold-list span{
+    position: relative;
+    animation: flake 10s ease-in-out  infinite ;
+    
+}
+.cold-list span:nth-child(1){
+    position: relative;
+    animation: flake 15s ease-in-out  infinite ;
+    animation-delay: 2s;
+}
+.cold-list span:nth-child(2){
+    position: relative;
+    animation: flake 8s ease-in-out  infinite ;
+    animation-delay: 6s;
+}.cold-list span:nth-child(3){
+    position: relative;
+    animation: flake 20s ease-in-out  infinite ;
+    animation-delay: 6s;
+}
+.cold-list span:nth-child(4){
+    position: relative;
+    animation: flake 8s ease-in-out  infinite ;
+    animation-delay: 3s;
+}
+.cold-list span:nth-child(5){
+    position: relative;
+    animation: flake 19s ease-in-out  infinite ;
+    animation-delay: 6s;
+}
+.cold-list span:nth-child(6){
+    position: relative;
+    animation: flake 34s ease-in-out  infinite ;
+    animation-delay: 1s;
+}
+.cold-list span:nth-child(7){
+    position: relative;
+    animation: flake 20s ease-in-out  infinite ;
+    animation-delay: 0.25s;
+}
+.cold-list span:nth-child(8){
+    position: relative;
+    animation: flake 5s ease-in-out  infinite ;
+    animation-delay: 0.6s;
+}
+.cold-list span:nth-child(9){
+    position: relative;
+    animation: flake 15s ease-in-out  infinite ;
+    animation-delay: 2s;
+}
+@keyframes flake{
+        0%{
+            top: -4px;
+            opacity: .6;
+            transform:translateX(-20px) rotate(0deg);
+        }
+        10%{
+            opacity: .8;
+            transform:translateX(20px) rotate(45deg);
+        }
+        20%{
+            opacity: .8;
+            transform:translateX(-20px) rotate(93deg);
+        }
+        40%{
+            opacity: .8;
+            transform:translateX(20px) rotate(180deg);
+        }
+        60%{
+            opacity: .8;
+            transform:translateX(-20px) rotate(230deg);
+        }
+        80%{
+            opacity: .8;
+            transform:translateX(20px) rotate(290deg);
+        }
+        100%{
+            top: 200px;
+            opacity: .8;
+            transform:translateX(-20px) rotate(350deg);
+        }
+        
+}
+
+.card-love{
+    font-size: 15px;
+    color: #9f5f6b;
+    position: relative;
+    opacity: 0.8;
+    
+
+}
+ .list-love span{
+     position: relative;
+    animation: love 3s cubic-bezier(0.165, 0.84, 0.44, 1) 0.2s infinite;
+
+}
+@keyframes love {
+    to{
+        font-size: 30px;
+    }
+    
+}
+
+.content{
+        color: #fff;
+        font-size: 1rem;
+
+}
+.content-name span{ 
+    display: inline-block;
+
+    position: relative;
+    right: -40px;
+    top: 20px;
+    animation: list-name 1s ease-in-out infinite ;
+    animation-delay: calc(0.1s * var(--i));
+
+}
+@keyframes list-name {
+    0%{
+        transform: translateY(0px);
+    }
+    20%{
+        transform: translateY(-10px);
+    }
+    40%,100%{
+        transform: translateY(0px);
+    }
+    
+}
+.content-text{
+    margin-top :18px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 482px;
+    font-size: 24px;
+    opacity: .5;
+}
+#background:hover .content-text{
+    opacity: 1;
+    font-size: 25px;
+    color: bisque;
+}
+.content-list{
+
+}
+.footer-text{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.content-text .footer-end{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    opacity: 1;
+}
