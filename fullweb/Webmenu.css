@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+}
+#header{
+    background-color: #34455c;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header .menu{
+    
+    min-height: 60px;
+}
+.menu-img >.mobile-img{
+    width: 130px;
+    height: 50px;
+    padding-top: 11px;
+    padding-left: 34px;
+    
+}
+.menu > a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 60px;
+    margin: 0 10px;
+    font-size: 0.9rem;
+
+}
+.menu>a:hover{
+    color: #ccc;
+}
+.menu{
+    position: relative;         
+   
+}
+.menu-list{
+    background-color:#fff;
+    box-shadow: 0 0 10px   rgba(0, 0, 0, 0.5);
+    width: 200px;
+    position: absolute;
+    top:100%;
+    left: -18%;
+    display: none;
+}
+.menu-list > a{
+    color: #ccc;
+    font-size: 0.9rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    line-height: 30px;
+}
+.menu-list a:hover{
+    background-color: mintcream;
+    
+}
+.menu:hover .menu-list{
+    display: block;
+}
+
+
+
+/* content */
+#content{
+    display: flex;
+    flex-wrap: wrap;
+}
+#content .content-row{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+.main{
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #aaa;
+}
+.main:hover img{
+    cursor: pointer;
+}
+
+.main-list-main .main-img{
+    width: 255px;
+    height: 212px;
+}
+.content{
+    padding: 10px;
+    width: 255px;
+    height: 210px;
+}
+.content-name{
+    font-size: 20px;
+}
+.content .content-clas{
+    padding: 10px;
+    opacity: 0.8;
+}
+.content .content-clas b{
+    margin-left: 78%;
+    position: relative;
+    top: -20px;
+}
+
+
+
+.content-clas i{
+    color: rgb(240, 191, 76);
+}
+.content .content-pay{
+    color: #f65623;
+    font-size: 20px;
+}
+
+
+
+
+
+/* foorer */
+#footer{
+    background: rgba(0, 0, 0, 0.9);
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+
+}
+#footer .footer-menu-list {
+    font-size: 18px;
+    color: #fff;
+}
+.text-footer{
+    line-height: 35px;
+    color: #ccc;
+    font-size: 15px;
+}
+.text-footer a{
+    text-decoration: none;
+    color: #ccc;
+    font-size: 15px;
+    
+}
+.text-footer a:hover{
+    text-decoration:underline;
+
+}
