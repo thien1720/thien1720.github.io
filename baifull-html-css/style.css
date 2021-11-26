@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+}
+#heading-menu{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 68px;
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/bf48ed0748c75a00aaa512bb/PA7BIF1x.jpg);
+    min-height: 608px;
+    position: relative;
+    
+}
+#heading-menu .head-logo {
+    
+   line-height: 80px;
+}
+#heading-menu .head-logo >img{
+    max-width: 64px;
+    max-height: 64px;
+    margin-left: 113px;
+    
+}
+#heading-menu .head-nav{
+    line-height: 80px;
+    font-size: 16px;
+    font-weight: 600;
+    z-index: 1;
+    margin-right: 130px;
+}
+#heading-menu .head-nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #1a1a1a;
+    
+}
+#heading-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    position: absolute;
+    top:10%;
+    z-index: 1;
+}
+#heading-content .heading-img {
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/d4ee61f59c695343b3666ee6/z-min.jpg);
+    flex: 1;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100%;
+    min-height: 533px;
+    padding: 30px;
+    
+    
+}
+#heading-content .heading-text{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 18%;
+}
+#heading-content .heading-text > .text-head-u{
+    font-size: 24px;
+}
+#heading-content .heading-text > .text-head-con{
+    font-size: 48px;
+    max-width: 502px;
+}
+#heading-content .heading-text > .text-foot{
+    font-size: 16px;
+    margin-top:24px ;
+}
+.text-foot a {
+    color: #111111;
+    text-decoration: none;
+    border-bottom: 1px solid #111111;
+}
+
+
+
+/* Phần content */
+#content{
+    margin-top: 60px;
+    text-align: center;
+    margin:0 180px;
+}
+.content-header .content-sidebar {
+    font-size: 48px;
+    padding-top:60px;
+   
+}
+.content-header .content-list {
+    font-size: 16px;
+    margin-top :17px
+   
+}
+.content-list-menu{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content-list-menu .content-nav{
+    flex: 1;
+    width: 33.33333%;
+    min-width: 313px;
+   
+    padding: 30px;
+
+}
+.content-list-menu .content-number{
+    font-size: 250px;
+    color: #f9e79b;
+    font-weight: 900;
+    position: relative;
+}
+
+.content-nav .content-style{
+    position: absolute;
+    top: 117%;
+    width: 20%;
+    
+}
+.content-nav .content-style2{
+    position: relative;
+    top: -220px;
+    z-index: 1;
+}
+.content-nav .content-cen{
+   font-weight: 400;
+   font-size: 24px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.content-nav .text-style{
+    position: absolute;
+    top: 128%;
+}
+.content-nav .content-text2{
+    position: relative;
+    top:-40%;
+    z-index: 1;
+}
+.content-text{
+    text-align: center;
+    width: 300px;
+    max-width: 100%;
+}
+
+/* Phần Bog */
+
+#bog1{
+    display: flex;
+    justify-content: space-between;
+    flex:1;
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/a376d6d1490757eb8b0aa529/5ae9c49e-7cad-c9e5-2446-718a68ef0cdb.jpg);
+    overflow: hidden;
+}
+#bog1 .bog-style{
+    flex:1;
+}
+#bog .bog-text{
+    margin-left: 160px;
+    width: 500px;
+    padding-top:40px;
+}
+#bog .bog-heading{
+    color: #f1c50e;
+    font-size: 48px;
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+#bog .bog-sub{
+    font-size:24px;
+    color: #111111;
+    letter-spacing: 1px;
+    font-weight: 300    ;
+}
+#bog .bog-text-nav{
+    margin-top:36px;
+    font-size: 18px;
+    color: #111111;
+    line-height: 1.6;
+    width: 482px;
+}
+#bog .bog-text-end{
+   padding-top:11px;
+}
+#bog .bog-text-end a{
+    text-decoration: none;
+    color: black;
+    margin-left: 4px;
+    font-weight: 500;
+}
+#bog-three button,
+#bog1 button{
+    margin-top: 36px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px 52px;
+    background-color: #f1c50e;
+    border: none;
+}
+#bog-three button:hover,
+#bog1 button:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#bog1 .bog-img img{
+    max-height: 504px;
+    
+}
+
+/* Phần bog2 */
+#bog2{
+    background-image: url(https://images02.nicepage.com/a1389d7bc73adea1e1c1fb7e/633c94b317fb5366b354d730/pexels-photo-3906049.jpeg);
+    background-size: 115% ;
+    background-repeat: no-repeat;
+    background-position: 0 51%;
+    height: 465px;
+    margin-top: -4px;
+}
+#bog2 .bog-menu-list{
+    color: #fff;
+    width: 940px;
+    margin: 0 114px;
+}
+#bog2 .bog-menu-list .menu-head{
+    padding-top: 60px;
+    font-size: 24px;
+    font-weight: 400px;
+}
+#bog2 .bog-menu-list .one{
+    font-size: 16px;
+    padding: 25px 0;
+
+}
+#bog2 .bog-menu-list .example{
+    font-size: 48px;
+}
+#bog2 .bog-menu-list .menu-list-text{
+    font-size: 16px;
+    line-height: 2;
+    width: 494px;
+    padding-top: 25px;
+}
+
+/* phần bog-three */
+#bog-three{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 110px;
+    
+}
+#bog-three .three-text-list{
+    padding: 30px;
+    width: 748px;
+    margin-top: 40px;
+}
+#bog-three .three-head{
+    font-size: 48px;
+
+}
+#bog-three .three-text{
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 1.6;
+    width: 695px;
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
+#bog-three .three-foot{
+    margin-top: 22px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    opacity: 0.9;
+}
+#bog-three .three-foot a{
+    color: #111111;
+    text-decoration: none;
+    opacity: 1;
+    font-weight: 500;
+}
+#bog-three .three-img {
+    width: 342px;
+    height: 441px;
+    margin-right: 50px;
+}
+#bog-three .three-img .three-style{
+    width: auto;
+    height: 438px;
+    
+}
+#bog-footer{
+    padding-top: 30px;
+
+}
+#bog-footer .bog-footer-head{
+    text-align: center;
+}
+#bog-footer .footer-headding{
+    font-size: 48px;
+}
+#bog-footer .footer-text{
+    font-size: 16px;
+    margin-top: 22px;
+    margin: 15px 32%;
+}
+#bog-footer .bog-img-container{
+    padding-top: 20px;
+    display: flex;
+   justify-content: center;
+}
+
+#bog-footer .bog-menu-list-nav{
+    width: 228px;
+    display: flex;
+    justify-content: center;
+}
+#bog-footer .bog-menu-list-nav > img{
+    padding: 30px;
+    
+}
+/* Phần contact */
+#contact{
+    margin-top: 70px; 
+    background-color: #111111;
+    color: #ffff;
+    overflow: hidden;
+}
+#contact .contact-header{
+    padding-top: 36px;
+    text-align: center;
+}
+#contact .contact-contai{
+    font-size: 200px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 5px;
+    color: #404040;
+}
+#contact .contact-sub{
+    color: #f1c50e;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: -140px;
+}
+#contact .contact-me{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 90px ;
+}
+#contact .contact-head-text{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+#contact .contact-sub-text{
+    font-size: 16px;
+    width: 300px;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+#contact i{
+    color: #f1c50e;
+    font-size: 40px;
+    padding-top: 20px;
+}
+#contact .contact-infor{
+    font-size: 18px;
+    padding-top: 10px;
+}
+#contact .contact-box-in{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+   
+}
+#contact .contact-box-in textarea,
+#contact .contact-box-in .input1,
+#contact .contact-box-in .input2{
+
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    width: 100%;
+}
+#contact .input1,
+#contact .input2{
+    padding:15px;
+    margin-top: 15px;
+}
+#contact .input3{
+    margin-top: 4px;
+}
+#contact textarea{
+    margin-top: 15px;
+    height: 171px;
+    padding: 10px;
+    
+}
+.contact-box-in .contact-input{
+    display: flex;
+    padding: 10px;
+}
+.contact-box-in span > p{
+    margin-left: 5px;
+}
+.input3-sub{
+    text-decoration: none;
+    color: #e5bfed;
+    
+}
+.input3-sub:hover{
+    color:#a1a1a1;
+}
+
+.contact-box-in .contact-submid{
+    width: 121px;
+    color: #333;
+    font-size: 16px;
+    background-color: #f1c50e;
+    text-align: center;
+    border-radius: 5pc;
+    padding: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 20px;
+
+}
+.contact-box-in .contact-submid:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+#footer{
+    height: 100px;
+    background-color: black;
+    
+}
