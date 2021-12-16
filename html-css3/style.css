@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+/* phần header */
+#heading{
+
+}
+#heading .heading_content{
+    background-color: #ff4857;
+    min-height: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+#heading .heading_content .heading-sub{
+    color: #fff;
+    line-height: 80px;
+    font-weight: 100;
+}
+#heading .heading_content > span{
+    font-size: 24px;
+    line-height: 80px;
+    color: #fff;
+    cursor: pointer;
+}
+/* phần slice */
+#slice{
+
+}
+#slice .slice-sub{
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/d0e25d258f835d649b6691b4/Untitled5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    min-height: 650px;
+   
+}
+#slice .slice-sub .slice-sub_text{
+    color: #fff;
+    padding:10% 0 0 15%;
+}
+#slice .slice-sub .slice-sub_text .slice-sub_text-nav{
+    font-size: 72px;
+    width: 414px;
+    font-weight: 200;
+}
+#slice .slice-sub .slice-sub_text .slice-sub_text-list{
+    font-size: 18px;
+    padding-top: 30px;
+    width: 480px;
+    line-height: 1.6;
+}
+
+#slice .slice-sub .slice-sub_text  > a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff4857;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    position: relative;
+    top: 35px;
+    opacity: 0.7;
+}
+#slice .slice-sub .slice-sub_text  > a:hover{
+    opacity: 1;
+}
+
+#slice .slice-sub_palette{
+    height: 140px;
+    width: 15px;
+    background-color: #ff4857;
+    margin-left: 15%;
+    position: relative;
+    display: inline-block;
+    top: -65px;
+}
+/* phần content */
+#content{
+   
+}
+#content .content-list-head{
+    display: flex;
+    justify-content: space-around;
+}
+#content .content-level{
+    margin-left: 15%;
+}
+#content .content-level .content-level_style{
+    opacity: 0.7;
+    padding: 10px;
+}
+#content .content-level .content-level_head{
+    font-size: 36px;
+    font-weight: 100;
+}
+#content .content-level .content-level_text{
+    font-size: 18px;
+}
+#content .content-img{
+    margin-right: 10%;
+}
+#content .content-img img{
+    height: 800px;
+    margin-top: -220%;
+}
+
+#content .content-list-record{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px 15%;
+}
+#content .content-list-record .content-record{
+    
+    margin: 12px;
+}
+#content .content-list-record .content-record b{
+    background-color: #ff4857;
+    width: 40px;
+    height: 5px;
+    display: inherit;
+}
+#content .content-list-record .content-record .content-record-text{
+    font-size: 20px;
+    font-weight: 800;
+    padding: 15px 0;
+}
+#content .content-list-record .content-record .content-record-sub{
+    font-size: 15px;
+    line-height: 1.4;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+/* phần about */
+#about{
+
+}
+#about .about-prize{
+    background-image: linear-gradient(45deg, #2a2a48, #ff4857);
+    text-align: center;
+    
+}
+#about .about-prize .about-prize-sub{
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;  
+    padding: 50px 10px;
+    margin: 0 12%;
+}
+#about .about-prize .about-prize-list{
+    padding: 50px 20px;
+}
+#about .about-prize .about-prize-list > svg{
+    width: 80px;
+    fill: #fff;
+    
+}
+#about .about-prize .about-prize-list .about-prize-head{
+    padding: 20px 0;
+    font-size: 18px;
+    letter-spacing: 4px;
+}
+#about .about-know{
+    background-color: #f2f2f8;
+}
+#about .about-know .about-know-head{
+    text-align: center;
+}
+#about .about-know .about-know-head .about-know-headText{
+    padding: 80px 0 15px;
+    font-size: 34px;
+    font-weight: 100;
+    opacity: 0.7;
+}
+#about .about-know .about-know-listRun{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    padding: 50px 0;
+}
+#about .about-know .about-know-listRun .about-know-style{
+    max-width: 360px;
+    margin: 20px;
+    background-color: #fff;
+}
+#about .about-know .about-know-listRun .about-know-style .about-know-listText{
+    padding: 20px 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+#about .about-know .about-know-listRun .about-know-style .about-know-listSub{
+    padding: 22px;
+}
+#about .about-know .about-know-listRun img{
+    width: 360px;
+}
+
+#about .about-from{
+    display: flex;
+}
+#about .about-from .about-fromImg{
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/f198819e3bc055eeae7059ea/240336P322BZ662.jpg) ;
+    background-repeat: no-repeat;
+    flex: 1;
+    background-size: cover;
+    background-position: 50% 50%;
+    min-height: 650px;
+    padding:0 100px;
+}
+#about .about-from .about-fromBlog{
+    flex: 1;
+    
+    background-color: #ff4857;
+    color: #fff;
+    padding: 30px 100px;
+    box-sizing: border-box;
+}
+#about .about-from .about-fromBlog .about-from-headText{
+    font-size: 36px;
+    font-weight: 100;
+    padding-top: 100px;
+    margin-right:10px;
+}
+#about .about-from .about-fromBlog .about-from-style{
+    line-height: 1.6;
+}
+#about .about-from .about-fromBlog .about-from-introduce{
+    font-weight: 600;
+    padding: 20px 0;
+}
+#about .about-from .about-fromBlog .about-from-navText{
+    margin-bottom: 35px;
+}
+#about .about-from .about-fromBlog .about-fromLink{
+    background-color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    color: #2a2a48;
+}
+#about .about-from .about-fromBlog .about-fromLink:hover{
+    background-color: #ccc;
+}
+
+#about .about-runing{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 15%;
+}
+#about .about-runing .about-runingWhy{
+    flex: 1;
+    height: 360px;
+    margin: 0 30px;
+}
+#about .about-runing .about-runingWhy .about-runingWhy-head{
+    font-size: 50px;
+    font-weight: 100;
+    padding: 10px 0;
+    opacity: 0.7;
+}
+#about .about-runing .about-runingWhy .about-runingWhy-subText{
+    font-size: 18px;
+    opacity: 0.7;
+    padding:15px 24px 80px 0;
+}
+#about .about-runing .about-runingWhy b{
+    background-color: #ff4857;
+    width: 90%;
+    height: 15px;
+    display: inherit;
+    
+}
+#about .about-runing .about-runingText{
+    flex: 1;
+    height: 360px;
+    margin: 0 30px;
+}
+#about .about-runing .about-runingText .about-runingText-sub{
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+#about .about-runing .about-runingText .about-runingText-nav{
+    /* padding-bottom: 20px; */
+    line-height: 1.6;
+}
+#about .about-runing .about-runingPeopel{
+    flex: 1;
+    margin: 0 20px;
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/e93181db54d05692b7dc81f6/Untitled6.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 360px;
+}
+
+
+#footer{
+    
+}
+#footer .footer-head{
+    background-image: linear-gradient(45deg, #2a2a48, #ff4857);
+
+}
+#footer .footer-head .footer-headding{
+    padding: 30px 0;
+    text-align: center;
+    margin: 0 15%;
+    color: #fff;
+}
+#footer .footer-head .footer-headding .footer-heading{
+    font-size: 100px;
+}
+#footer .footer-head .footer-headding .footer-listText{
+    font-size: 22px;
+    font-weight: 100;
+    opacity: 0.7;
+    padding-bottom: 30px;
+}
+#footer .footer-headingSub{
+    background-color: #2a2a48;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    font-weight: 100;
+}
