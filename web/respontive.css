@@ -1,0 +1,40 @@
+@media (max-width: 768px){
+    .content-sur-Item{
+    
+    }
+    .content-sur-nav{
+    
+    }
+    #content .content-sur-Item .content-sur-nav{
+        margin-top: 65px !important;
+    }
+    
+
+}
+@media (max-width: 960px){
+    #content .content-sur-Item .content-sur-nav{
+        margin-top: 20px;
+    }
+    #content .content-tech .content-tech_blog_style{
+        margin: 0!important;
+    }
+    #content .content-techImg{
+        max-width: 100%;
+    }
+    #content .content-brain{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #content .content-brain .content-brainImage{
+        width: 100%;
+        
+        min-height: 480px;
+    }
+    #content .content-brain .content-brainSub{
+        width: 100%;
+    }
+
+}
+@media (max-width: 1200px){
+    
+}
