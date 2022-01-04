@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+body{
+    
+}
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: antiquewhite; */
+}
+header .logo {
+    margin: 20px;
+}
+header .logo img{
+    max-width: 64px;
+    max-height: 64px;
+}
+header .menu-list a{
+    line-height:80px;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size:16px;
+    color: #333;
+}
+header .menu-list a:first-child{
+    color: #478ac9;
+}
+
+/* phần content */
+
+#content{
+    background-color: #232b84;
+}
+#content .container{
+    margin: 0 auto;
+    padding: 10% 0;
+    
+}
+#content .content-layout{
+    margin: 0 -12px;
+    /* height: 100%; */
+}
+#content .content-layout .head-img{
+}
+#content .content-layout .head-img img{
+    max-height: 286px;
+    width: 100%;
+}
+
+#content .content-service{
+    background-color: #fff;
+    font-size:20px;
+    display: flex;
+    justify-content:center;
+
+}
+#content .content-service .content-sub{
+    padding: 5% 0;
+}
+#content .content-service .content-sub .content-subText{
+    font-size: 20px;
+    margin-top:12px;
+}
+#content .content-service .content-sub .content-listText{
+    font-size: 16px;
+    font-size: Open sans ,sans-serif;
+    color: #808080;
+    font-style: italic;
+    max-width: 350px;
+    margin: 12px 0;
+}
+#content .content-sub .content-subSvg{
+    background-color: #d9d9d9;
+    border-radius: 50%;
+    width: 78px;
+    height: 78px;
+    margin: 0 auto;
+}
+#content .content-sub .content-subSvg>svg{
+    width: 41px;
+    height: 41px;
+    margin: 10px 12px;
+
+}
+#content .content-product{
+    background-color: #d9d9d9;
+}
+#content .content-product .content-product-Item {
+    margin: 0 -12px ;
+    padding: 30px 50px;
+}
+
+#content .content-product .content-product-Item h1{
+    color: #232b84;
+    font-size: 48px;
+    display: flex;
+    flex-direction: column;
+    font-weight:100;
+}
+#content .content-product .content-product-Item h1 >b{
+    font-weight: 700;
+}
+#content .content-product .content-product-Item p:nth-child(2){
+    font-size: 18px ;
+    color:#111111;
+    line-height: 1.6;
+}
+#content .content-product .content-product-Item p:nth-child(3){
+    font-size: 20px;
+}
+#content .content-product .content-product-Item p:nth-child(3) a{
+    /* text-decoration: none; */
+    color: #111111;
+}
+#content .content-product .content-product-Item button{
+    background-color: #e67f45;
+    padding: 12px 30px;
+    border: none;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+@media (min-width: 576px) { 
+    header .menu-listBar{
+        display:block;
+        line-height: 80px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    #content .content-layout .content-subItem{
+        margin-right: -24px;
+    }
+ }
+
+.menu-list-navStyle{
+    transform: translateX(-4%) !important;
+   
+ }
+ @media (max-width:576px) {
+    header .menu-listBar{
+        display:block;
+        line-height: 80px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    #content .content-layout .content-subItem{
+        margin-right: -24px;
+    }
+    #content .content-service{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+ @media (max-width:976px) {
+    header .menu-list{
+        /* background-color: #111111; */
+        background-position: 100%;
+    }
+    header .menu-list-nav{
+        transform: translateX(-104%);
+        transition-timing-function: ease-in-out;
+        transition-duration:0.5s;
+        display: flex;
+        position: absolute;
+        right: 72%;
+        height: 100%;
+    }
+
+    
+    header .menu-list-nav .menu-navItem {
+        display: flex;
+        flex-direction: column;
+        /* transform: translateX(-50%);
+        position: absolute;
+        right: 40%; */
+        background-color: #111111;
+        height: 100%;
+    }
+    header .menu-list-nav a{
+        padding: 0 100px;
+        color: #fff !important;
+    }
+    
+    header .menu-nav-exis{
+        color: #fff ;
+        font-size: 30px;
+        position: absolute;
+        left: 87%;
+        cursor: pointer;
+    }
+}
+@media (min-width:976px) {
+    header .menu-listBar{
+        display:none;
+        cursor: pointer;
+    }
+}
+ 

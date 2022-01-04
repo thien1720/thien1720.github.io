@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+header .header{
+    display: flex;
+    justify-content:space-around;
+    min-height: 80px;
+}
+header .header .logo{
+    margin-top: 25px;
+}
+header .header .menu ul{
+    display: flex;
+    line-height: 80px;
+    list-style-type: none;
+}
+header .header .menu ul li a{
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+header .header .menu ul li:last-child a{
+    color: #1957ec;
+}
+header .header .menu ul li:first-child {
+    font-size: 30px;
+    color: #fff;
+    margin-left:80% ;
+    cursor: pointer;
+    display:none;
+}
+header .header .menu ul li a:hover{
+    color: antiquewhite;
+}
+header .header .bar{
+    font-size: 30px;
+    line-height: 80px;
+    display:none;
+}
+.menu-style{
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition-duration: 0.5s;
+    transform: translateX(0) !important;
+}
+
+/* phần background hồng */
+.line{
+    background-color:#f2c8c9;
+    min-height:219px;
+}
+/* phần content Item */
+section,
+#content-phone{
+    background-color:#1957ec;
+}
+#content-phone .content-phone-grid .content-Item{
+    margin: 10px 0;
+}
+#content-phone .content-phone-grid .content-Item .content-icon i{
+    font-size:70px;  
+    margin: 20px 0;  
+    color: #1957ec;
+}
+#content-phone .content-phone-grid .content-Item .content-head{
+    font-size: 20px ;
+    font-weight: 800;
+
+}
+#content-phone .content-phone-grid .content-Item .content-text{
+    font-size: 16px;
+    padding: 20px 20px 0;
+}
+#content-phone .content-phone-grid .content-Item .content-text a{
+    font-size: 21px;
+}
+#content-phone .content-phone-grid .content-Item{
+    background-color:#fff;
+    transform: translateY(-100px);
+    min-height: 250px;
+}
+
+/* phàn touch */
+section{
+
+}
+section .content-touch-style{
+    margin:0 10%;
+    padding-bottom: 100px;
+    color: #fff;
+}
+section .content-touch-style .content-touch-grids .content-touch-Items{
+    padding: 20px;
+}
+section .content-touch-style .content-touch-grids .content-touch-Items h3{
+    font-size: 36px ;
+    font-weight:700;
+
+}
+section .content-touch-style .content-touch-grids .content-touch-Items h6{
+    font-size: 18px;
+    margin-top: 20px ;
+    max-width:410px ;
+    font-style: italic;
+}
+section .content-touch-style .content-touch-grids .content-touch-Items p{
+    font-size: 16px;
+    line-height:1.6;
+
+}
+section .content-touch-style .content-touch-grids .content-touch-Items b i{
+    font-size: 30px;
+    margin: 20px 10px;
+}
+section .content-touch-grids  .content-touch-itemInput .content-touch-input textarea,
+section .content-touch-grids  .content-touch-itemInput .content-touch-input input{
+    display:flex;
+    flex-direction: column;
+    background-color:#1957ec;
+    border: none;
+    border-bottom-width:0 1px 0 100%;
+    border-bottom-style: solid ;
+    width: 100%;
+    border-bottom-color: #fff;
+    padding: 10px 10px;
+}
+section .content-touch-grids  .content-touch-itemInput .content-touch-input label{
+    margin-top: 20px;
+}
+section .content-touch-grids  .content-touch-itemInput .content-touch-itemSub {
+    width:100%;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color:#fff;
+}
+section .content-touch-grids  .content-touch-itemInput .content-touch-itemSub a{
+    text-decoration: none;
+    color: black;
+    text-transform:uppercase;
+    font-size: 18px;
+    /* padding: 0 100%; */
+    width:100%;
+}
+section .content-touch-grids  .content-touch-itemInput .content-touch-itemSub:hover {
+    background-color: #ddd;
+}
+#footer {
+    height: 100px;
+    background-color: #ddd;
+}
+@media (max-width :768px) {
+
+    header .header .menu ul {
+        display: block;
+        position: absolute;
+        right: 66%;
+        min-width: 250px;
+        height: 100%;
+        background: #333;
+        transform: translateX(-247px);
+    }
+    header .header .menu ul li {
+        text-align: center;
+    }
+    header .header .menu ul li a{
+        color: #fff !important;
+        
+    }
+    header .header .menu ul li:first-child {
+        display: block;
+    }    
+    header .header .bar{
+        font-size: 30px;
+        line-height: 80px;
+        display:block;
+        cursor: pointer;
+    }
+}
