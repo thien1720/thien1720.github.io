@@ -1,0 +1,130 @@
+/* màn hình mobile */
+
+@media (max-width:576px) {
+    .header .header-bars  .header-nav:first-child{
+        left:0;
+    }
+    .header .header-bars  .header-nav {
+        
+        line-height: 40px;
+        /* margin-left: 100px ; */
+    }
+    #content .content-style {
+        margin-bottom: 120%;
+
+    }
+    .section1 .read-me img{
+        /* width: auto; */
+        max-width: 400px;
+    }
+    .header .header-bars .header-apply p a {
+        margin-left: 65%;
+    }
+    
+    section .read-me .read-meText p{
+        text-align: justify;
+        
+    }
+    .section2 .teamList .teamList-head p{
+        font-size: 26px;
+    }
+    .section2 .teamList .teamlist-Iteams .teamList-iteam-nav .teamlist-text button{
+        padding: 5px 20px ;
+        font-size: 14px;
+    }
+    .viva .viva-listIcon .viva-list2,
+    .viva .viva-listIcon .viva-list {
+        display: flex;
+        flex-direction:column;
+    }
+    .viva .viva-listIcon .viva-list2 img,
+    .viva .viva-listIcon .viva-list img{
+        width: 200px;
+        margin: 20px auto;
+    }
+    .process .process-iteam .process-itemText .grid-only {
+        margin-top: 0px;
+    }
+    .apply .apply-validate button{
+        margin:30px 0 0  38%;
+    }
+    .apply .apply-chage .apply-chageInput .apply-upload .apply-uploadNav{
+        display: flex;
+        flex-direction:column;
+        /* margin:auto; */
+        padding: 0 0;
+    }
+    #footer .footer-dow {
+        margin-left: 20%;
+    }
+    #footer  .footer-list-icon{
+        font-size: 20px ;
+        
+    }
+    #footer .footer-list-icon i{
+        margin: 0 20px;
+    }
+}
+
+@media  (min-width:577px) and  (max-width:978px) {
+    #content .content-style {
+        height:50vh;
+
+    }
+    
+    .header .header-bars  .header-nav:first-child{
+        left:0;
+    }
+    .header .header-bars .header-apply p a {
+        margin-left: 75%;
+        padding: 6px 60px;
+    }
+    #content .content-style {
+        margin-bottom: 120%;
+
+    }
+    .viva .viva-listIcon .viva-list2,
+    .viva .viva-listIcon .viva-list {
+        display: flex;
+        flex-direction:column;
+    }
+    .viva .viva-listIcon .viva-list2 img,
+    .viva .viva-listIcon .viva-list img{
+        width: 200px;
+        margin: 20px auto;
+    }
+    .process .process-iteam .process-itemText .grid-only {
+        margin-top: 0px;
+    }
+    .section1 .read-me img{
+        /* width: auto; */
+        width: 400px;
+    }
+    #content .content-style {
+        margin-bottom: 200px;
+
+    }
+    #footer .footer-dow {
+        margin-left: 28%;
+    }
+    #footer  .footer-list-icon{
+        font-size: 20px ;
+        
+    }
+    #footer .footer-list-icon i{
+        margin: 0 20px;
+    }
+    .apply .apply-validate button{
+        margin:30px 0 0  52%;
+    }
+}
+
+
+@media (max-width:978px) {
+    #content .content-style {
+        height:50vh;
+
+    }
+
+    
+}
