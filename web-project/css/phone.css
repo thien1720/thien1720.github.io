@@ -68,6 +68,8 @@ header #header-nav .header-icon{
 header #header-nav .header-icon img{
     margin: 0 1em;
     cursor: pointer;
+    width: 24px;
+    height: 30px;
 }
 header #header-option {
     background-color: #EEF2F4;
@@ -77,11 +79,11 @@ header #header-option {
 }
 header #header-option i{
     cursor: pointer;
-    line-height: 100px;
+    line-height:100px;
+
 }
 header #header-option .option-icon .style-icon{
     font-size: 30px;
-    
     margin-left: 10px;
 }
 section #showIteam .show-grid .Option-filter .nav-overlay,
@@ -225,7 +227,7 @@ header #header-option .option-icon >i{
 
 }
 section #bandner .bandner-img {
-    background-image: url(../image-figma/Tab/sliceTap.jpg);
+    background-image: url(../image/Phones.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size:cover;
@@ -233,7 +235,7 @@ section #bandner .bandner-img {
     max-height:450px;
     position: relative;
     opacity: 0.5;
-
+  
 } 
 section #bandner .sub-text{
     
@@ -252,11 +254,14 @@ section #bandner .sub-text h3 a:hover{
 section #showIteam .show-grid{
     padding: 0;
 }
+section #showIteam .showIteamGrid .iteam{
+    padding: 0;
+}
 section #showIteam .show-grid  >select{
-    margin-left: 80% ;
-    max-width: 120px;
+    margin-left: 82% ;
     padding: 3px 0;
     border-radius: 4px ;
+    max-width: 120px;
     
 }
 section #showIteam .showRight,
@@ -289,8 +294,9 @@ section #showIteam .iteam .styleIteam{
     margin: 0 5px;
     box-shadow: 1px 1px 5px #333333;
     max-width:270px;
-    min-height: 368px;
+    min-height: 378px;
     border-radius:4px;
+    cursor: pointer;
 }
 section #showIteam .iteam .styleIteam .saleImg>img{
     height: 175px;
@@ -306,15 +312,12 @@ section #showIteam .iteam .styleIteam .saleImg>.saleImg-iteam{
     padding: 0 15px;
     z-index: 1;
 }
-section #showIteam .showIteamGrid .iteam{
-    padding: 0;
-}
 section #showIteam .iteam .styleIteam .showIteam-coin{
     padding: 10px ;
 }
 section #showIteam .iteam .styleIteam .showIteam-coin .iteamCoin{
     display: flex;
-    margin-top: 1em;
+    margin-bottom: 1em;
 }
 section #showIteam .iteam .styleIteam .showIteam-coin .iteamCoin .coin{
     color: #DE0B25;
@@ -324,8 +327,7 @@ section #showIteam .iteam .styleIteam .showIteam-coin .iteamCoin .sale-iteamCoin
     text-decoration: line-through;
 }
 section #showIteam .iteam .styleIteam .showIteam-coin >p:last-child{
-    font-size: 12px ;
-    
+    font-size: 12px;
 }
 section .content-text,
 section #iteamLap {
@@ -334,7 +336,7 @@ section #iteamLap {
 }
 section #iteamLap .lapHead{
     background-color: #007AC6;
-    /* height: 80px; */
+    height: 80px;
     min-height: 80px;
     display: flex;
     justify-content: space-between;
@@ -390,7 +392,7 @@ section .content-text{
     line-height: 1.6;
 }
 section .content-text .content-img{
-    background-image: url(../image-figma/Tab/writing.jpg);
+    background-image: url(../image/menuPhone/baiViet.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50% ;
     background-size:cover;

@@ -68,6 +68,8 @@ header #header-nav .header-icon{
 header #header-nav .header-icon img{
     margin: 0 1em;
     cursor: pointer;
+    width: 24px ;
+    height: 30px;
 }
 header #header-option {
     background-color: #EEF2F4;
@@ -77,10 +79,11 @@ header #header-option {
 }
 header #header-option i{
     cursor: pointer;
+    line-height: 100px;
 }
 header #header-option .option-icon .style-icon{
     font-size: 30px;
-    line-height: 100px;
+    
     margin-left: 10px;
 }
 section #showIteam .show-grid .Option-filter .nav-overlay,
@@ -123,6 +126,9 @@ section #showIteam .show-grid .Option-filter .show-style{
     padding: 10px;
     overflow: auto;
 }
+section #showIteam .show-grid .Option-filter .show-style .nav-option h6{
+    font-weight: 600;
+}
 section #showIteam .show-grid .Option-filter .content-filter .iteam-Sub{
     background-color: #fff;
     padding: 10px;
@@ -146,6 +152,22 @@ section #showIteam .show-grid .Option-filter .content-filter .iteam-Sub .filter-
     margin-bottom: 0.5em;
 }
 section #showIteam .show-grid .Option-filter .content-filter .iteam-Sub .filter-sub .exist-sub{
+    cursor: pointer;
+}
+section #showIteam .show-grid .Option-filter .content-filter .iteam-Sub .filter-sub .exist-sub{
+    cursor: pointer;
+}
+section #showIteam .show-grid .Option-filter{
+    display: flex;
+    justify-content: flex-end;
+}
+section #showIteam .show-grid .Option-filter .filter{
+    border: 1px solid #332A05;
+    cursor: pointer;
+    display: none;
+}
+section #showIteam .show-grid .Option-filter select{
+    max-width: 120px;
     cursor: pointer;
 }
 header #header-option .option-mobile .option-style_mobi{
@@ -177,7 +199,7 @@ header #header-option .option-mobile .option-style_mobi .option-style-mobiles i{
 header #header-option .option-mobile .option-style_mobi .option-link{
     font-size: 16px;
 }
-header #header-option > ul{
+header #header-option> ul{
     display: flex;
     line-height:100px;
     list-style-type: none;
@@ -190,6 +212,9 @@ header #header-option ul li >a{
     margin-right: 1em;
     text-decoration: none;
     font-weight: 600;
+}
+header #header-option ul li .option-color {
+    color: #007AC6;
 }
 header #header-option .option-icon .shop-color{
     color: #FF990E;
@@ -205,7 +230,7 @@ header #header-option .option-icon >i{
 
 }
 section #bandner .bandner-img {
-    background-image: url(../image-figma/slice/accessorieis-tech.jpg);
+    background-image: url(../image/slice/anh-slice2.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size:cover;
@@ -213,13 +238,11 @@ section #bandner .bandner-img {
     max-height:450px;
     position: relative;
     opacity: 0.5;
-    /* width: 100%;
-    height: 450px;
-    object-fit: cover;
-    /* opacity: 0.5;     */
-} 
-section #bandner .sub-text{
     
+} 
+section #showIteam .showIteamGrid .iteam{
+    padding: 0;
+    margin: 0 auto;
 }
 section #bandner .sub-text h3{
     color: #332A05;
@@ -235,25 +258,7 @@ section #bandner .sub-text h3 a:hover{
 section #showIteam .show-grid{
     padding: 0;
 }
-section #showIteam .show-grid .Option-filter{
-    display: flex;
-    justify-content: flex-end;
-}
-section #showIteam .show-grid .Option-filter .filter{
-    border: 1px solid #332A05;
-    cursor: pointer;
-    display: none;
-}
-section #showIteam .show-grid .Option-filter select{
-    max-width: 120px;
-    cursor: pointer;
-}
-/* section #showIteam .show-grid  >select{
-    margin-left: 80% ;
-    padding: 3px 0;
-    border-radius: 4px ;
-    max-width: 120px;
-} */
+
 section #showIteam .showRight,
 section #showIteam .showLeft{
     font-size: 35px;
@@ -281,12 +286,12 @@ section #showIteam .showIteamGrid{
 }
 
 section #showIteam .iteam .styleIteam{
-    margin: 0 5px;
+    margin: 0 0.5em;
     box-shadow: 1px 1px 5px #333333;
     max-width:270px;
     min-height: 350px;
     border-radius:4px;
-    cursor: pointer;
+    cursor:pointer;
 }
 section #showIteam .iteam .styleIteam .saleImg>img{
     height: 175px;
@@ -302,18 +307,11 @@ section #showIteam .iteam .styleIteam .saleImg>.saleImg-iteam{
     padding: 0 15px;
     z-index: 1;
 }
-section #showIteam .showIteamGrid .iteam {
-    padding: 0;
-}
 section #showIteam .iteam .styleIteam .showIteam-coin{
     padding: 10px ;
 }
-section #showIteam .iteam .styleIteam .showIteam-coin .iteamCoin .sale-iteamCoin p{
-    text-decoration: line-through;
-}
 section #showIteam .iteam .styleIteam .showIteam-coin .iteamCoin{
     display: flex;
-    margin: 0.5em 0;
 }
 section #showIteam .iteam .styleIteam .showIteam-coin .iteamCoin .coin{
     color: #DE0B25;
@@ -321,7 +319,10 @@ section #showIteam .iteam .styleIteam .showIteam-coin .iteamCoin .coin{
 section #showIteam .iteam .styleIteam .showIteam-coin .iteamCoin .sale-iteamCoin{
     margin-left: 25px;
 }
-section #showIteam .iteam .styleIteam .showIteam-coin p:last-child{
+section #showIteam .iteam .styleIteam .showIteam-coin .iteamCoin .sale-iteamCoin{
+    text-decoration:line-through;
+}
+section #showIteam .iteam .styleIteam .showIteam-coin >p:last-child{
     font-size: 12px ;
     
 }
@@ -359,6 +360,12 @@ section #iteamLap .layout-grid .lap-option .style-option >span{
 
     margin-left: 10px;
 }
+/* section #showIteam .iteam .styleIteam .showIteam-coin  p{
+    font-size: 12px;
+} */
+section #showIteam .iteam .styleIteam .showIteam-coin .iteamCoin{
+    margin-bottom: 1em;
+}
 section .next-page {
     margin-top: 30px;
     display: flex;
@@ -389,11 +396,11 @@ section .content-text{
     line-height: 1.6;
 }
 section .content-text .content-img{
-    background-image: url(../image-figma/Acccers/baiViet.jpg);
+    background-image: url(../image/slice/textLap.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50% ;
     background-size:cover;
-    height: 274px;
+    height: 400px;
     max-height: 400px;
 }
 section .content-text .botom-head >h6{
