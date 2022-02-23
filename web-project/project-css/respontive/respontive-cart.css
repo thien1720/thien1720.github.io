@@ -1,0 +1,147 @@
+@media (max-width:522px) {
+    #content .content-iteam .content-grid .content-styleIteam .sub-total >a h6,
+    #content .content-iteam .content-grid .content-styleIteam .sub-nav a h6{
+        font-size: 18px;
+    }
+    header #header-nav{
+        height: 70px;
+    }
+    header #header-nav .header-icon{
+        line-height: 70px;
+    }
+    header #header-nav .header-logo img{
+        width: 70px;
+    }
+    header #header-nav .header-input .style-input{
+        height: 30px;
+    }
+    header #header-nav .header-input .style-input .header-inputElement{
+        padding: 5px;
+    }
+    #show-iteam .sub-detail .detail-nameIteam .iteamCoin{
+        display: block;
+    }
+    #show-iteam .sub-detail .detail-nameIteam .iteamCoin .sale-iteamCoin{
+        margin: 0;
+    }
+    #show-iteam .sub-detail{
+        margin: 0;
+    }
+    #show-iteam .sub-detail .detail-nameIteam > h6{
+        font-size: 16px;
+    }
+    #total{
+        display: block;
+    }
+    #total .reverse .sale-iteam{
+        display: flex;
+        justify-content: space-between;
+    }
+    body > hr, 
+    #show-iteam ,
+    #address-user{
+        margin: 4%;
+    }
+    #address-user .submit-form button{
+        width: 100%;
+    }
+}
+
+@media  (max-width:767px){
+
+    header #header-nav .header-input  input{
+        padding-right: 0;
+        width: 116px;
+    }
+    header #header-nav .header-icon img {
+        margin: 0 0.5em;
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+    }
+   
+    header #header-option {
+        height: 65px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header #header-option .option-bar {
+        display: block;
+    }
+    header #header-option .option-icon i,
+    header #header-option .option-bar i{
+        font-size: 30px;
+        line-height: 64px;
+        margin: 0 20px;
+    }
+    #iteam-alike .description-nav .show-grid .iteam-style2,
+    section #iteamLap .layout-gridOption,
+    header #header-option .option-icon i:nth-child(2),
+    header #header-option .option-icon a:nth-child(2),
+    header #header-option > ul{
+        display: none;
+    }
+    #address-user .form-input-list .name-email{
+        display: block;
+    }
+    #address-user .form-input-list .com .email input,
+    #address-user .form-input-list .name-email .email input{
+        min-width: 100%;
+    }
+    #show-iteam .sub-detail .detail-grid{
+        display: block;
+    }
+    #show-iteam .sub-detail .detail-style{
+        margin-top: 14px;
+    }
+    #show-iteam .sub-detail .detail-img >img {
+        width: 110px;
+    }
+    #show-iteam .sub-detail .show-coin{
+        display: none;
+    }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    header #header-option ul li >a {
+        font-size: 18px;
+    }
+    #show-iteam .sub-text h3{
+        font-size: 20px;
+    }
+    #show-iteam .sub-detail .detail-nameIteam .iteamCoin .sale-iteamCoin >p,
+    #show-iteam .sub-detail .show-coin >p, 
+    #show-iteam .sub-detail .detail-nameIteam .iteamCoin .coin{
+        font-size: 14px;
+    }
+    #show-iteam .sub-detail {
+        margin: 0;
+    }
+    #address-user .form-input-list .name-email .email input{
+        min-width: 245px;
+    }
+    #show-iteam .sub-detail .more-iteam .more-click button{
+        width: 28px;
+    }
+    #show-iteam .sub-detail .more-iteam .more-click input{
+        width: 30px;
+    }
+    #show-iteam .sub-detail .detail-nameIteam >h6{
+        font-size: 16px;
+    }
+    #show-iteam .sub-detail .detail-img >img {
+        width: 130px;
+    }
+    /* #show-iteam .sub-detail .detail-grid{
+        display: block;
+    }
+    #show-iteam .sub-detail .detail-grid  .detail-style{
+        margin-top: 10px;
+    } */
+}
+
+@media (min-width:979px) and (max-width:1200px) {
+    #address-user .form-input-list .name-email .email input{
+        min-width: 336px;
+    }
+}
