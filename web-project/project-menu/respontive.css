@@ -1,0 +1,206 @@
+@media (max-width: 575px) {
+   
+    section #bandner2{
+        max-height: 62px  !important;
+    }
+    header #header-nav{
+        height: 70px;
+    }
+    header #header-nav .header-logo img {
+        width: 70px;
+    }
+    header #header-nav .header-input .style-input{
+        height: 35px;
+    }
+    header #header-nav .header-icon{
+        line-height: 70px;
+    }
+    header #header-nav .header-input .style-input .header-inputElement {
+        padding: 7px;
+    }
+}
+@media  (max-width:767px) {
+   
+    header #header-nav .header-input  input{
+        padding-right: 0;
+        width: 116px;
+    }
+    header #header-nav .header-icon img {
+        margin: 0 0.5em;
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+    }
+   
+    header #header-option {
+  
+        display: flex;
+        justify-content: space-between;
+    }
+    header #header-option .option-icon{
+        margin-right: 6%;
+    }
+    header #header-option .option-bar {
+        display: block;
+        margin-left: 6%;
+    }
+    header #header-option .option-icon i,
+    header #header-option .option-bar i{
+        font-size: 30px;
+        line-height: 64px;
+        margin: 0 4px;
+    }
+    
+    section #bandner{
+        max-height: 200px;
+    }
+    header #header-option{
+        height: 64px;
+    }
+    section #bandner2{
+        max-height: 100px;
+    }
+    header #header-option .option-icon i:nth-child(2),
+    header #header-option > ul,
+    section #showIteam .showIteamGrid .iteam-style2,
+    section #iteamLap .lapHead .list-brand ul,
+    section #showIteam .showRight,
+    section #showIteam .showLeft{
+        display:none;
+    }
+    section #showIteam .showIteamGrid .style-sale{
+        margin: 0 10px;
+    }
+    
+    section #showIteam .iteam .styleIteam .showIteam-coin p{
+        font-size: 14px;
+    }
+    section #showIteam .iteam .styleIteam{
+        margin: 0 10px ;
+    }
+    section #showIteam .iteam .styleIteam .showIteam-coin .note-Iteam p{
+        font-size: 10px;
+    }
+    section #showIteam .iteam .styleIteam .showIteam-coin .iteamCoin{
+        display: block;
+    }
+    section #showIteam .iteam .styleIteam .showIteam-coin .iteamCoin .sale-iteamCoin{
+        margin-left: 0;
+    }
+    section #iteamLap {
+        margin: 50px  0;    
+        
+    }
+    section #showIteam .iteam .styleIteam .saleImg>img{
+        height: 125px;
+    }
+    section #iteamLap .downs {
+        margin-left: 74%;
+    }
+    section #bandner{
+        height: 132px;
+    }
+    #option .option-style .option-iteam{
+        display: block;
+    }
+    #option .option-style .option-iteam p{
+        font-size: 18px;
+    }
+    #option .option-style .option-iteam i{
+        font-size: 10px;
+    }
+    #newIteam .showNew .style-news{
+        display: block;
+    }
+   
+    section #showIteam .iteam .styleIteam{
+        min-height: 320px;
+    }
+    #option .option-style .option-iteam .option-sub >p{
+        font-size: 20px;
+    }
+    #newIteam .showNew .newImg{
+        padding: 0 ;
+    }
+    #option .option-style .option-iteam >img {
+        height: 45px;
+    }
+    #newIteam .showNew img{
+        padding: 8%;
+    }
+    #footer .footer-show{
+        display: block;
+        text-align: center;
+    }
+    #footer .show-company >img{
+        height: 135px;
+        width: 135px;
+    }
+    #footer .footer-show .show-service2 .icon-social i{
+        font-size: 30px;
+    }
+} 
+@media (min-width:768px) and (max-width:991px) {
+
+    header #header-nav .header-input img{
+        position:absolute;
+        right: 34%;
+        top:3%; 
+    }
+    header #header-nav .header-icon img {
+        margin: 0 1em;
+        cursor: pointer;
+        width: 31px;
+        height: 34px;
+    }
+    header #header-option ul li >a{
+        font-size: 20px;
+       
+    }
+    section #iteamLap {
+        margin: 50px 4% 0;    
+        
+    }
+    section #showIteam .iteam .styleIteam{
+        margin: 0 10px ;
+    }
+    header #header-option .option-icon >i {
+        font-size: 30px;
+       
+    }
+    section #bandner{
+        height: 254px;
+    }
+    section .flash-sale{
+        margin-left: 50px;
+        
+    }
+    section #showIteam .iteam .styleIteam .saleImg>img{
+        height: 125px;
+        
+    }
+    section #showIteam .iteam .styleIteam .showIteam-coin .iteamCoin{
+        display: block;
+    }
+    section #showIteam .iteam .styleIteam .showIteam-coin .iteamCoin .sale-iteamCoin{
+        margin-left: 0;
+    }
+    section #showIteam .iteam .styleIteam .showIteam-coin >p{
+        font-size: 14px;
+    }
+    section #showIteam .iteam .styleIteam .showIteam-coin  span{
+        font-size: 10px;
+    }
+    #option .option-style .option-iteam .option-sub >p{
+        font-size: 20px;
+    }
+    section #iteamLap .downs{
+        margin-left: 80%;
+    }
+}
+@media (min-width:992px) and (max-width:1200px) {
+    /* header #header-option ul li >a{
+        font-size: 22px;
+        margin:0 10px;      
+    } */
+}
