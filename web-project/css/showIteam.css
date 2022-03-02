@@ -10,16 +10,20 @@ a{
     color: #332A05;
     text-decoration: none;
 }
+a:hover{
+    color: #332A05;
+}
 p{
     margin-bottom: 0;
 }
+.hide,
 .content-unactive{
     display: none;
 }
 .content-active{
-    display:block;
-    /* transform: translateX(0); */
+    display:block !important;
 }
+
 header{
     background-color: #007AC6;
 }
@@ -30,7 +34,6 @@ header #header-nav{
 header #header-nav .header-logo img{
     width:100px;
     border-radius: 4px;
-    /* margin-left: -100px; */
 }
 header #header-nav .header-input{
     margin: auto 0;
@@ -225,10 +228,7 @@ header #header-option .option-icon >i{
     
     margin: 50px 8%;
 }
-#content .content-iteam .content-grid .content-styleIteam{
-    /* cursor: pointer;
-    border: none; */
-}
+
 #content .content-iteam .content-grid .content-styleIteam>img{
     width: 100%;
     height:280px;
@@ -265,8 +265,10 @@ header #header-option .option-icon >i{
 }
 #content .content-iteam .content-grid .content-styleIteam .sub-total >a p{
     margin: 0;
-    font-size: 14px;
 }
+#content .content-iteam .content-grid .content-styleIteam .list-total p{
+    font-size: 12px;
+ }
 #content .content-iteam .content-grid .content-styleIteam .sub-nav{
     display: flex;
     justify-content: space-between;
@@ -283,7 +285,8 @@ header #header-option .option-icon >i{
     font-size: 14px;
 }
 #content .content-iteam .content-grid .content-styleIteam .sub-nav a h6{
-    font-size: 20px;
+
+    font-size: 18px;
 }
 #content .content-iteam .content-grid .iteamCoin{
     display: flex;
@@ -294,6 +297,9 @@ header #header-option .option-icon >i{
 #content .content-iteam .content-grid .iteamCoin .sale-iteamCoin{
     margin-left: 25px;
 }
+#content .content-iteam .content-grid .iteamCoin .sale-iteamCoin >p{
+    text-decoration: line-through;
+}
 #content .content-iteam .content-grid .option-color2{
     display: flex;
 }
@@ -303,14 +309,19 @@ header #header-option .option-icon >i{
     margin: 10px;
     cursor: pointer;
 }
-#content .content-iteam .content-grid .option-color .style-color:hover{
+/* #content .content-iteam .content-grid .option-color .style-color:hover{
     border: 1px solid #ccc;
-}
+} */
 #content .content-iteam .content-grid .content-option .style-option{
     background-color: #EEF2F4;
     padding: 10px;
     border-radius: 10px;
     cursor: pointer;
+    /* border: 1px solid #332A05; */
+}
+ .option-border{
+    border: 2px solid #332A05 ;
+
 }
 #content .content-iteam .content-grid .content-option .style-option p{
     margin-bottom: 0;
@@ -336,8 +347,7 @@ header #header-option .option-icon >i{
 #description {
 
 }
-#iteam-alike .tab-list-show,
-#description .tab-list-show{
+#iteam-alike .tab-list-show{
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -346,25 +356,34 @@ header #header-option .option-icon >i{
 #iteam-alike .tab-list-show{
     margin: 50px 8% 30px;
 }
-#description .tab-list-show h3{
+#description .tab-list-show{
+    display: flex;
+    margin:50px 8% 30px;
+}
+#description .tab-list-show .tab-option{
+    font-size: 20px;
+    font-weight: 600;
     margin: 0 10px ;
     cursor: pointer;
+    background-color: #EEF2F4;
+    padding: 10px;
 }
-#description .tab-list-show h3:nth-child(1){
+#description .tab-list-show .form-style{
     color: #E55339;
+    border: 1px solid #332A05;
 }
 #description .tab-line{
     position: absolute;
     left: 0;
     bottom:0;
-    width: 18%;
+    width: 0;
     height: 6px;
     border-radius: 15px;
     background-color: #E55339;
     transition: all 0.2s ease;
 }
 #description .content-text{
-    
+    display: none;
     padding: 40px;
     line-height: 1.6;
     margin: 20px 8%;
@@ -388,6 +407,23 @@ header #header-option .option-icon >i{
 #description .content-text .firt-text >p{
     margin-bottom: 10px;
 }
+#description .content-text .list-config >ul .config-color {
+    background-color: #fff;
+}
+#description .content-text .list-config >ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+#description .content-text .list-config >ul li{
+    display: flex;
+    padding: 10px;
+}
+#description .content-text .list-config >ul li .config-nav-size{
+    min-width: 20%;
+    max-width: 20px;
+    margin-right: 10px;
+}
+
 #iteam-alike .description-nav .show-grid .showIteamGrid{
     margin:0 auto;
 }
@@ -434,6 +470,9 @@ header #header-option .option-icon >i{
 #form-input .form-input-list .name-email .email input:focus{
     outline: none;
 }
+#form-input .form-input-list .name-email .email .message{
+    font-size: 12px;
+}
 #form-input{
     margin: 50px 9%;
 }
@@ -445,10 +484,17 @@ header #header-option .option-icon >i{
     justify-content: space-between;
    
 }
+#form-input .form-input-list .com .border,
+#form-input .form-input-list .name-email .email .border {
+    border: 2px solid #E55339  !important;
+}
 #form-input .form-input-list .com,
 #form-input .form-input-list .name-email .email{
     margin-top: 20px;
+    display:flex;
+    flex-direction: column;
 }
+
 #form-input .form-input-list .name-email .email input{
     min-width: 500px;
     padding: 6px 5px;
@@ -459,6 +505,7 @@ header #header-option .option-icon >i{
     width: 100%;
     border: 1px solid #ccc;
     border-radius: 4px;
+    padding: 10px;
 }
 #form-input .form-input-list .submit-form{
     display: flex;
@@ -519,4 +566,101 @@ header #header-option .option-icon >i{
 }
 #footer {
     height: 300px;
+}
+
+.login-user{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0,0, 0.2);
+    z-index:3;
+}
+
+#login .show-login{
+    display: flex;
+    justify-content: space-between;
+}
+#login .login-iteam{
+    display: none;
+}
+#login .box-login{
+    margin: 10vh auto;
+    padding: 20px;
+    width: 400px;
+    /* max-width: 400px; */
+    max-width:calc(100% - 20px);
+    box-shadow: 0 0 10px rgba(0, 0,0, 0.5);
+    border: 1px solid #332A05;
+    background-color: #EEF2F4;
+    animation:login-user ease 0.3s;
+}
+
+#login .show-login> h3{
+    cursor: pointer;
+    font-weight: 600;
+}
+#login .show-login> h3:hover{
+    opacity: 0.8;
+}
+#login .login-iteam .email input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+#login .login-iteam .email .border{
+    border: 2px solid #DE0B25 !important;
+}
+#login .login-iteam .email .form-mesage{
+    font-size: 12px;
+}
+#login .login-iteam .email{
+    margin: 10px 0;
+}
+#login .login-iteam .check-input{
+    display: flex;
+}
+#login .login-iteam .check-input >input{
+    margin-right: 6px;
+}
+#login .login-iteam >i{
+    font-size: 12px;
+    margin-top: -20px;
+}
+
+#login .sub-btn{
+    background-color: #007AC6;
+    color: #fff;
+    padding: 8px 30px ;
+    width: 100%;
+    border: none;
+    margin-top: 30px ;
+    display: none;
+}
+#login .submit-log .subBtn{
+    color: #007AC6;
+}
+#login .submit-log button:hover{
+    background-color: #ccc;
+    color: #332A05;
+}
+#login .active-color{
+    color: #DE0B25;
+}
+#login .active{
+    display: block;
+}
+
+
+@keyframes login-user{
+    from{
+        transform:translateY(-60px);
+        opacity: 0;
+    }
+    to{
+        transform:translateY(0);
+        opacity: 1;
+    }
 }

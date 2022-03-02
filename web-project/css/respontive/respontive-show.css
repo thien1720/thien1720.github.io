@@ -18,9 +18,24 @@
     header #header-nav .header-input .style-input .header-inputElement{
         padding: 5px;
     }
+
+    #description .tab-list-show .tab-option,
+    #form-input .tab-list-show >h3,
+    .description-nav .tab-list-show h3{
+        font-size: 16px !important;
+        font-weight: 600 !important;
+    }
+    #description .tab-list-show,
+    #description .content-text{
+        margin: 20px 4%;
+    }
+    #description .content-text .list-config >ul li .config-nav-size{
+        min-width: 38% ;
+    }
 }
 @media  (max-width:767px){
     .sub-text h3 {
+        font-weight: 600;
         font-size: 16px;
         margin: 30px 8%;
     }
@@ -55,12 +70,16 @@
 
     header #header-option .option-bar {
         display: block;
+        margin-left: 6%;
+    }
+    header #header-option .option-icon{
+        margin-right: 6%;
     }
     header #header-option .option-icon i,
     header #header-option .option-bar i{
         font-size: 30px;
         line-height: 64px;
-        margin: 0 20px;
+        margin: 0 5px;
     }
     #iteam-alike .description-nav .show-grid .iteam-style2,
     section #iteamLap .layout-gridOption,
@@ -68,14 +87,18 @@
     header #header-option > ul{
         display: none;
     }
-    /* #content .content-iteam .content-grid .content-styleIteam .sub-total >a h6{
-        font-size: 18px;
-    } */
+ 
     #description .content-text .content-img{
         max-height: 168px;
     }
+    #description .tab-list-show .tab-option,
+    #form-input .tab-list-show >h3,
     .description-nav .tab-list-show h3{
         font-size: 18px;
+        font-weight: 600;
+    }
+    #description .content-text .list-config >ul li .config-nav-size{
+        min-width: 30% ;
     }
     #description .content-text .firt-text >h6{
         font-weight: 500;
@@ -122,6 +145,7 @@
     #render-coment .user-coment .customer .content-text h5{
         font-size: 18px;
     }
+    
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
@@ -140,7 +164,7 @@
     }
     #content .content-iteam .content-grid .content-styleIteam .sub-total >a p,
     #content .content-iteam .content-grid .content-styleIteam .sub-nav a p{
-        font-size: 10px;
+        font-size: 8px;
     }
     #content .content-iteam .content-grid .content-styleIteam .sub-total >a h6,
     #content .content-iteam .content-grid .content-styleIteam .sub-nav a h6{
@@ -174,7 +198,22 @@
     #form-input .form-input-list .name-email .email input{
         min-width: 308px;
     }
-    /* #form-input .form-input-list .submit-form button{
-        margin-left: 74%;
-    } */
+  
 }
+@media (min-width: 980px) and (max-width: 1200px){
+    #iteam-alike .description-nav .show-grid .iteam .styleIteam .showIteam-coin .iteamCoin{
+        display: block;
+    }
+    #iteam-alike .description-nav .show-grid .iteam .styleIteam .showIteam-coin .iteamCoin .sale-iteamCoin{
+        margin-left: 0;
+    }
+    #form-input .form-input-list .name-email .email input{
+        min-width: 400px;
+    }
+}
+/* 
+@media (min-width: 1201px){
+    #form-input .form-input-list .name-email .email input{
+        min-width: 350px;
+    }
+} */

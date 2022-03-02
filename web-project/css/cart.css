@@ -10,6 +10,19 @@ a{
     color: #332A05;
     text-decoration: none;
 }
+a:hover{
+    color: #332A05;
+}
+.hide,
+.content-unactive{
+    display: none !important;
+}
+.content-active{
+    display:block !important;
+}
+input:focus{
+    outline: none;
+}
 p{
     margin-bottom: 0;
 }
@@ -19,6 +32,10 @@ p{
 .content-active{
     display:block;
     /* transform: translateX(0); */
+}
+.border{
+    border: 2px solid #E55339  !important;
+
 }
 header{
     background-color: #007AC6;
@@ -289,7 +306,7 @@ body > hr,
 #show-iteam .sub-detail .detail-nameIteam >h6{
     font-size: 20px;
 }
-#show-iteam .sub-detail .show-coin >p,
+#show-iteam .sub-detail .show-coin > .coin,
 #show-iteam .sub-detail .detail-nameIteam .iteamCoin .coin{
     color: #DE0B25;
 }
@@ -350,7 +367,7 @@ body > hr,
 }
 
 #address-user{
-    margin: 30px 12%;
+    margin: 30px 8%;
     background-color:#EEF2F4;
     padding: 30px;
 }
@@ -369,14 +386,21 @@ body > hr,
     padding: 6px 5px;
     border-radius: 4px;
     border: 1px solid #ccc;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     
+}
+#address-user .form-input-list .name-email .form-group,
+#address-user .form-input-list .com .form-group{
+    margin-bottom: 20px;
 }
 #address-user .form-input-list .com .email input,
 #address-user .form-input-list .com textarea{
     width: 100%;
     border: 1px solid #ccc;
     border-radius: 4px;
+}
+#address-user .form-input-list .com textarea{
+    padding: 10px;
 }
 #address-user  .submit-form{
     display: flex;
@@ -407,4 +431,100 @@ body > hr,
 }
 #footer{
     height: 200px;
+}
+.login-user{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0,0, 0.2);
+    z-index:3;
+}
+
+#login .show-login{
+    display: flex;
+    justify-content: space-between;
+}
+#login .login-iteam{
+    display: none;
+}
+#login .box-login{
+    margin: 10vh auto;
+    padding: 20px;
+    width: 400px;
+    /* max-width: 400px; */
+    max-width:calc(100% - 20px);
+    box-shadow: 0 0 10px rgba(0, 0,0, 0.5);
+    border: 1px solid #332A05;
+    background-color: #EEF2F4;
+    animation:login-user ease 0.3s;
+}
+
+#login .show-login> h3{
+    cursor: pointer;
+    font-weight: 600;
+}
+#login .show-login> h3:hover{
+    opacity: 0.8;
+}
+#login .login-iteam .email input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+#login .login-iteam .email .border{
+    border: 2px solid #DE0B25 !important;
+}
+#login .login-iteam .email .form-mesage{
+    font-size: 12px;
+}
+#login .login-iteam .email{
+    margin: 10px 0;
+}
+#login .login-iteam .check-input{
+    display: flex;
+}
+#login .login-iteam .check-input >input{
+    margin-right: 6px;
+}
+#login .login-iteam >i{
+    font-size: 12px;
+    margin-top: -20px;
+}
+
+#login .sub-btn{
+    background-color: #007AC6;
+    color: #fff;
+    padding: 8px 30px ;
+    width: 100%;
+    border: none;
+    margin-top: 30px ;
+    display: none;
+}
+#login .submit-log .subBtn{
+    color: #007AC6;
+}
+#login .submit-log button:hover{
+    background-color: #ccc;
+    color: #332A05;
+}
+#login .active-color{
+    color: #DE0B25;
+}
+#login .active{
+    display: block;
+}
+
+
+@keyframes login-user{
+    from{
+        transform:translateY(-60px);
+        opacity: 0;
+    }
+    to{
+        transform:translateY(0);
+        opacity: 1;
+    }
 }

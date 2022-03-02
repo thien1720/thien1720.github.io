@@ -10,14 +10,18 @@ a{
     color: #332A05;
     text-decoration: none;
 }
+a:hover{
+    color: #332A05;
+}
 p{
     margin-bottom: 0;
 }
 .content-unactive{
-    display: none;
+    display: none !important;
+
 }
 .content-active{
-    display:block;
+    display:block  !important;
     /* transform: translateX(0); */
 }
 header{
@@ -141,10 +145,16 @@ section #showIteam .show-grid .Option-filter .content-filter .filter-apply .sub-
     border: none;
 
 }
+.filter-sub,
 section #showIteam .show-grid .Option-filter .content-filter .iteam-Sub .filter-sub{
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.5em;
+}
+section #iteamLap .layout-gridOption .lap-option .iteam-Sub .filter-sub i {
+    font-size: 25px;
+    padding: 0.2em;
+    cursor: pointer;
 }
 section #showIteam .show-grid .Option-filter .content-filter .iteam-Sub .filter-sub .exist-sub{
     cursor: pointer;
@@ -159,7 +169,7 @@ section #showIteam .show-grid .Option-filter{
 section #showIteam .show-grid .Option-filter .filter{
     border: 1px solid #332A05;
     cursor: pointer;
-    /* display: none; */
+    display: none;
 }
 section #showIteam .show-grid .Option-filter select{
     max-width: 120px;
@@ -182,7 +192,12 @@ header #header-option .option-mobile .option-style_mobi .user img{
     border: 1px solid #ccc;
     border-radius: 50%;
 }
+section #showIteam .iteam .styleIteam:hover .saleImg>img{
+    transform: translateY(10px);
+    animation:transform all linear 0.2s;
+    
 
+}
 header #header-option .option-mobile .option-style_mobi .option-style-mobiles:hover{
     opacity: 0.8;
 
@@ -349,6 +364,10 @@ section #iteamLap .layout-gridOption .lap-option{
     height: 100%;
     padding: 10px;
 }
+section #iteamLap .layout-gridOption .lap-option .iteam-Sub{
+    background-color: #fff;
+    min-height: 70px;
+}
 section #iteamLap .layout-grid .lap-option h6{
     font-weight: 600;
 }
@@ -372,8 +391,10 @@ section .next-page .page-nunber{
     width:35px;
     height: 35px;
     margin: 0 5px;
-    text-align: center;
-    line-height:35px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
 }
 section .next-page .page-nunber .page-color{
     color: #007AC6;
@@ -441,4 +462,104 @@ section .content-text .firt-text >p{
 #footer .footer-show .show-service2 .icon-social i{
         font-size: 35px;
         margin-right: 10px;
+}
+
+
+.login-user{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0,0, 0.2);
+    z-index:3;
+}
+.hide{
+    display: none;
+}
+#login .show-login{
+    display: flex;
+    justify-content: space-between;
+}
+#login .login-iteam{
+    display: none;
+}
+#login .box-login{
+    margin: 10vh auto;
+    padding: 20px;
+    width: 400px;
+    /* max-width: 400px; */
+    max-width:calc(100% - 20px);
+    box-shadow: 0 0 10px rgba(0, 0,0, 0.5);
+    border: 1px solid #332A05;
+    background-color: #EEF2F4;
+    animation:login-user ease 0.3s;
+}
+
+#login .show-login> h3{
+    cursor: pointer;
+    font-weight: 600;
+}
+#login .show-login> h3:hover{
+    opacity: 0.8;
+}
+#login .login-iteam .email input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+#login .login-iteam .email .border{
+    border: 2px solid #DE0B25 !important;
+}
+#login .login-iteam .email .form-mesage{
+    font-size: 12px;
+}
+#login .login-iteam .email{
+    margin: 10px 0;
+}
+#login .login-iteam .check-input{
+    display: flex;
+}
+#login .login-iteam .check-input >input{
+    margin-right: 6px;
+}
+#login .login-iteam >i{
+    font-size: 12px;
+    margin-top: -20px;
+}
+
+#login .sub-btn{
+    background-color: #007AC6;
+    color: #fff;
+    padding: 8px 30px ;
+    width: 100%;
+    border: none;
+    margin-top: 30px ;
+    display: none;
+}
+#login .submit-log .subBtn{
+    color: #007AC6;
+}
+#login .submit-log button:hover{
+    background-color: #ccc;
+    color: #332A05;
+}
+#login .active-color{
+    color: #DE0B25;
+}
+#login .active{
+    display: block;
+}
+
+
+@keyframes login-user{
+    from{
+        transform:translateY(-60px);
+        opacity: 0;
+    }
+    to{
+        transform:translateY(0);
+        opacity: 1;
+    }
 }

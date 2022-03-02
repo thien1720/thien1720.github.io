@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/showIteam.css">
     <link rel="stylesheet" href="../css/respontive/respontive-show.css">
-    <title>Document</title>
+    <title>Sản phẩm</title>
 </head>
 <body>
     <header>
@@ -99,8 +99,8 @@
                 <a href="../project-cart/cart.html">
                     <i class="shop-color style-icon fas fa-cart-plus"></i>
                 </a>
-                <a href="../project-login/login.html">
-                    <i class="style-icon far fa-user-circle"></i>
+                <a href="#">
+                    <i class="show-login-tab style-icon far fa-user-circle"></i>
                 </a>
             </div>
         </div>
@@ -141,19 +141,19 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="option-grid col-6 mb-3 text-center">
-                                        <div class="style-option">
+                                        <div class="style-option option-border">
                                             <p>16G/512GB</p>
                                             <p class="styleOption-coin">35.690.000đ</p>
                                         </div>
                                     </div>
                                     <div class="option-grid col-6 mb-3 text-center">
-                                        <div class="style-option">
+                                        <div class="style-option ">
                                             <p>16G/512GB</p>
                                             <p class="styleOption-coin">35.690.000đ</p>
                                         </div>
                                     </div>
                                     <div class="option-grid col-6 mb-3 text-center">
-                                        <div class="style-option">
+                                        <div class="style-option ">
                                             <p>16G/512GB</p>
                                             <p class="styleOption-coin">35.690.000đ</p>
                                         </div>
@@ -165,7 +165,7 @@
                                 <b>Màu Sắc:</b>
 
                                 <div class="option-color2">
-                                    <div class="style-color color-iteam1">
+                                    <div class="style-color color-iteam1 option-border">
 
                                     </div>
                                     <div class="style-color color-iteam2">
@@ -195,7 +195,7 @@
                     <div class="content-styleIteam">
                         <div class="list-total">
                             <div class="sub-total">
-                                <a href="#">
+                                <a href="../page/cart.html">
                                     <h6>Mua ngay</h6>
                                     <p>(giao hàng tận nơi hoặc lấy tại cửa hàng)</p>
                                 </a>
@@ -245,14 +245,14 @@
     <div id="description">
         <div class="description-nav">
             <div class="tab-list-show">
-                <h3>Đặc điểm nổi bật</h3>
-                <h3>Thông số cấu hình</h3>
+                <h3 class="tab-option form-style">Đặc điểm nổi bật</h3>
+                <h3 class="tab-option">Thông số cấu hình</h3>
                 <div class="tab-line">
         
                 </div>
             </div>
         </div>
-        <div class="content-text">
+        <div class="content-text content-active">
             <div class="firt-text">
                 <!-- <h5>Phụ kiện Công nghệ - Nhũng thiết bị không thể thiếu
                 </h5> -->
@@ -289,6 +289,58 @@
                     Nếu bạn muốn sở mua MacBook Air 2020 M1 thì hãy nhanh tay liên hệ đến Hotline: 013355485 hay đến trực tiếp cửa hàng thuộc hệ thống NewTech để tiến hành đặt hàng với mức giá cạnh tranh nhất
                 </p>
                 
+            </div>
+        </div>
+
+        <div class="content-text ">
+            <div class="list-config">
+                <ul>
+                    <li class="config-color">
+                        <p class="config-nav-size">Màn hình:</p>
+                        <p>13.3"Retina (2560 x 1600)</p>
+                    </li>
+                    <li>
+                        <p class="config-nav-size">Ram:</p>
+                        <p>8 GB</p>
+                    </li>
+
+                    <li class="config-color">
+                        <p class="config-nav-size">Ổ cứng:</p>
+                        <p>256 GB SSD</p>
+                    </li>
+                    <li >
+                        <p class="config-nav-size">Hệ điều hành:</p>
+                        <p>Mac OS</p>
+                    </li>
+
+                    <li class="config-color">
+                        <p class="config-nav-size">Pin:</p>
+                        <p>Khoảng 10 tiếng</p>
+                    </li>
+                    <li >
+                        <p class="config-nav-size">Trọng lượng:</p>
+                        <p>1.29 kg</p>
+                    </li>
+                    
+                    <li class="config-color">
+                        <p class="config-nav-size">Độ phân giải</p>
+                        <p>Retina</p>
+                    </li>
+                    <li >
+                        <p class="config-nav-size">Bluetooth:</p>
+                        <p>	v5.0</p>
+                    </li>
+
+                    <li class="config-color">
+                        <p class="config-nav-size">Công nghệ âm thanh:</p>
+                        <p>	6 Loa</p>
+                    </li>
+                    <li >
+                        <p class="config-nav-size">Tính năng đặc biệt:</p>
+                        <p> Bảo mật vân tay, Nhận diện khuôn mặt</p>
+                    </li>
+
+                </ul>
             </div>
         </div>
     </div>
@@ -409,30 +461,32 @@
         </div>
 
         <div class="form-input-list ">
-            <div class="name-email">
-                <div class="email ">
-                    <p>Họ và tên
-                    </p>
-                    <input type="text" placeholder="Nhập tên đầy đủ *">
-                </div>
-                <div class="email ">
-                    <p>Email
-                    </p>
-                    <input type="email" placeholder="Nhập email *">
-                </div>
-            </div>
-            <div class="com">
-                <p>Comment</p>
-                <textarea rows="9" cols="80" placeholder="Thông tin cần điền">  
-                    
-                  </textarea>
-            </div>
+            <form action="" class="login-iteam">
+                <div class="name-email">
+                    <div class=" email ">
+                        <p>Họ và tên</p>
+                        <input name="fullname" type="text" placeholder="Nhập tên đầy đủ " class="fullname-sub">
+                        <span class="form-mesage"></span>
+                    </div>
+                    <div class=" email ">
+                        <p>Email</p>
+                        <input name="email" type="email" placeholder="Nhập email " class="email-sub">
+                        <span class="form-mesage"></span>
 
-            <div class="submit-form">
-                <button>
-                    Gửi đánh giá
-                </button>
-            </div>
+                    </div>
+                </div>
+                <div class="com">
+                    <p>Comment</p>
+                    <textarea name="comments" rows="9" cols="80" placeholder="Thông tin cần điền" class="comment-sub "> </textarea>
+                    <span class="form-mesage"></span>
+                </div>
+    
+                <div class="submit-form">
+                    <button>
+                        Gửi đánh giá
+                    </button>
+                </div>
+            </form>
         </div>
     </div>
     <!-- phần comment -->
@@ -450,7 +504,7 @@
                         <i class="far fa-clock"></i>
                         3 giờ trước
                     </p>
-                    <a href="#">Trả lời</a>
+                    <a href="#form-input">Trả lời</a>
                    </span>
                        
                 </div>
@@ -469,7 +523,7 @@
                         <i class="far fa-clock"></i>
                         3 giờ trước
                     </p>
-                    <a href="#">Trả lời</a>
+                    <a href="#form-input">Trả lời</a>
                    </span>
                        
                 </div>
@@ -489,7 +543,7 @@
                         <i class="far fa-clock"></i>
                         3 giờ trước
                     </p>
-                    <a href="#">Trả lời</a>
+                    <a href="#form-input">Trả lời</a>
                    </span>
                        
                 </div>
@@ -508,7 +562,7 @@
                         <i class="far fa-clock"></i>
                         3 giờ trước
                     </p>
-                    <a href="#">Trả lời</a>
+                    <a href="#form-input">Trả lời</a>
                    </span>
                        
                 </div>
@@ -528,7 +582,7 @@
                         <i class="far fa-clock"></i>
                         3 giờ trước
                     </p>
-                    <a href="#">Trả lời</a>
+                    <a href="#form-input">Trả lời</a>
                    </span>
                        
                 </div>
@@ -547,7 +601,7 @@
                         <i class="far fa-clock"></i>
                         3 giờ trước
                     </p>
-                    <a href="#">Trả lời</a>
+                    <a href="#form-input">Trả lời</a>
                    </span>
                        
                 </div>
@@ -567,7 +621,7 @@
                         <i class="far fa-clock"></i>
                         3 giờ trước
                     </p>
-                    <a href="#">Trả lời</a>
+                    <a href="#form-input">Trả lời</a>
                    </span>
                        
                 </div>
@@ -586,7 +640,7 @@
                         <i class="far fa-clock"></i>
                         3 giờ trước
                     </p>
-                    <a href="#">Trả lời</a>
+                    <a href="#form-input">Trả lời</a>
                    </span>
                        
                 </div>
@@ -606,7 +660,7 @@
                         <i class="far fa-clock"></i>
                         3 giờ trước
                     </p>
-                    <a href="#">Trả lời</a>
+                    <a href="#form-input">Trả lời</a>
                    </span>
                        
                 </div>
@@ -625,7 +679,7 @@
                         <i class="far fa-clock"></i>
                         3 giờ trước
                     </p>
-                    <a href="#">Trả lời</a>
+                    <a href="#form-input">Trả lời</a>
                    </span>
                        
                 </div>
@@ -633,9 +687,111 @@
         </div>
     </div>
 
-    <div id="footer">
 
+    <div class="login-user hide">
+        <div id="login">
+            <div class="box-login">
+                <div class="show-login">
+                    <h3 class="name-sub active-color">Đăng nhập </h3>
+                    <h3 class="name-sub "> Đăng ký</h3>
+                </div>
+                    <hr style="margin: 5px; height:2px;border-width:0;;background-color:black">
+                <div class="login-iteam active">
+                    <div class="email ">
+                        <p>Tài khoản
+                        </p>
+                        <input type="text" placeholder="" class="fullname-sub">
+
+                        <span class="form-mesage"></span>
+                    </div>
+                    <div class="email ">
+                        <p>Mật khẩu
+                        </p>
+                        <input type="password" placeholder="" class="password">
+                        <span class="form-mesage"></span>
+
+                    </div>
+                    <div class="check-input">
+                        <input type="checkbox"> Nhớ mật khẩu
+                    </div>
+                </div>
+                <div class="login-iteam ">
+                    <div class="email ">
+                        <p>Tài khoản
+                        </p>
+                        <input type="text" placeholder="" class="fullname-sub">
+                        <span class="form-mesage"></span>
+
+                    </div>
+                    <div class="email ">
+                        <p>Email
+                        </p>
+                        <input type="text" placeholder="" class="email-sub">
+                        <span class="form-mesage"></span>
+
+                    </div>
+                    <div class="email ">
+                        <p>Mật khẩu
+                        </p>
+                        <input type="text" placeholder="" class="password">
+                        <span class="form-mesage"></span>
+
+                    </div>
+                    <div class="email ">
+                        <p>Nhập lại mật khẩu
+                        </p>
+                        <input type="text" placeholder="" class="repeat-password">
+                        <span class="form-mesage"></span>
+
+                    </div>
+                    <i>Chú ý điền đầy đủ thông tin</i>
+                </div>
+    
+                <div class="submit-log">
+                    <button class="sub-btn active">Đăng nhập</button>
+                    <button class="sub-btn ">Đăng ký</button>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <script type="module" src="../main.js"></script>
+    <!-- <div id="footer">
+
+    </div> -->
+
+    <script   src="../js/main.js"></script>
+    <script src="../js/show.js"></script>
+    <script src="../js/login.js"></script>
+    <script src="../js/validaterlogin.js"></script>
+
+  
+    <script >
+        Validater({
+            form:".login-iteam",
+            error: ".form-mesage",
+            rule:[
+                Validater.isrequired("#login .login-iteam .email .fullname-sub" ,"vui lòng nhập tên của bạn"),
+                
+                // Validater.isemail("#login .login-iteam .email .email-sub" ,"Vui lòng nhập email"),
+                Validater.ispassword("#login .login-iteam .email .password", 8),
+                Validater.isrequired("#login .login-iteam .email .repeat-password" ,"Giá trị nhập vào không chính xác"),
+                Validater.isrepeatword("#login .login-iteam .email .repeat-password",
+                function(){
+                    return document.querySelector("#login .login-iteam .email .repeat-password").value
+                },
+                    "Mật khẩu nhập lại không chính xác"),
+                Validater.isrequired("#form-input .form-input-list .name-email .email .fullname-sub" ,"vui lòng nhập tên của bạn"),
+                Validater.isemail("#form-input .form-input-list .name-email .email .email-sub" ,"Vui lòng nhập email"),
+                Validater.isrequired("#form-input .form-input-list .name-email .email .email-sub" ,"Vui lòng nhập email"),
+                Validater.isrequired("#form-input .form-input-list .com .comment-sub"),
+                Validater.isemail("#login .login-iteam .email .email-sub","Vui lòng nhập email")
+                ],
+
+            onsubmit:function(data){
+                return data
+            },
+            
+
+        })
+    </script>
 </body>

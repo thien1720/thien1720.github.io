@@ -18,6 +18,10 @@
     header #header-nav .header-input .style-input .header-inputElement {
         padding: 7px;
     }
+    section #showIteam .show-screen-ph  ul >li a{
+        font-size: 16px;
+        margin: 0 2px;
+    }
 }
 @media  (max-width:767px) {
    
@@ -31,11 +35,13 @@
         width: 20px;
         height: 20px;
     }
-   
+    section #showIteam .show-screen-ph  ul,
     header #header-option {
-  
         display: flex;
         justify-content: space-between;
+    }
+    section #showIteam .show-screen-ph  ul{
+        justify-content:space-evenly;
     }
     header #header-option .option-icon{
         margin-right: 6%;
@@ -68,13 +74,18 @@
     section #showIteam .showLeft{
         display:none;
     }
+    /* section #showIteam .show-screen-ph  ul{
+        display: flex;
+    } */
     section #showIteam .showIteamGrid .style-sale{
         margin: 0 10px;
     }
     
     section #showIteam .iteam .styleIteam .showIteam-coin p{
         font-size: 14px;
+        font-weight: 600;
     }
+
     section #showIteam .iteam .styleIteam{
         margin: 0 10px ;
     }
@@ -84,9 +95,7 @@
     section #showIteam .iteam .styleIteam .showIteam-coin .iteamCoin{
         display: block;
     }
-    section #showIteam .iteam .styleIteam .showIteam-coin .iteamCoin .sale-iteamCoin{
-        margin-left: 0;
-    }
+
     section #iteamLap {
         margin: 50px  0;    
         
@@ -100,6 +109,9 @@
     section #bandner{
         height: 132px;
     }
+    section #showIteam .iteam .styleIteam .showIteam-coin .iteamCoin,
+    #newIteam .showNew .style-news,
+    section #showIteam .show-screen-ph,
     #option .option-style .option-iteam{
         display: block;
     }
@@ -109,15 +121,15 @@
     #option .option-style .option-iteam i{
         font-size: 10px;
     }
-    #newIteam .showNew .style-news{
-        display: block;
-    }
    
     section #showIteam .iteam .styleIteam{
         min-height: 320px;
     }
     #option .option-style .option-iteam .option-sub >p{
         font-size: 20px;
+    }
+    section #showIteam .iteam .styleIteam .showIteam-coin .iteamCoin .sale-iteamCoin{
+        margin-left: 0;
     }
     #newIteam .showNew .newImg{
         padding: 0 ;
@@ -138,6 +150,9 @@
     }
     #footer .footer-show .show-service2 .icon-social i{
         font-size: 30px;
+    }
+    #login .box-login .show-login h3{
+        font-size: 20px;
     }
 } 
 @media (min-width:768px) and (max-width:991px) {
@@ -182,9 +197,7 @@
     section #showIteam .iteam .styleIteam .showIteam-coin .iteamCoin{
         display: block;
     }
-    section #showIteam .iteam .styleIteam .showIteam-coin .iteamCoin .sale-iteamCoin{
-        margin-left: 0;
-    }
+    
     section #showIteam .iteam .styleIteam .showIteam-coin >p{
         font-size: 14px;
     }

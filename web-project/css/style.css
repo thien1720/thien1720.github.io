@@ -10,6 +10,9 @@ a{
     color: #332A05;
     text-decoration: none;
 }
+a:hover{
+    color: #332A05;
+}
 p{
     margin-bottom: 0;
 }
@@ -118,7 +121,7 @@ header #header-option .option-mobile_scrol{
 }
 header #header-option .option-mobile >i{
     position: absolute;
-    right:0 ;
+    right:6px;
     cursor: pointer;    
 }
 section #showIteam .show-grid .Option-filter .show-style{
@@ -143,7 +146,9 @@ section #showIteam .show-grid .Option-filter .content-filter .filter-apply .sub-
     border: none;
 
 }
-
+section #showIteam .show-screen-ph{
+    display: none;
+}
 
 section #showIteam .show-grid .Option-filter .content-filter .iteam-Sub .filter-sub{
     display: flex;
@@ -268,6 +273,9 @@ section #showIteam .showIteamGrid .iteam{
     padding: 0 ;
     margin: 0 auto;
 }
+/* section #showIteam .showIteamGrid .iteam a:hover{
+    color: #332A05;
+} */
 section #showIteam .iteam .styleIteam{
     margin: 0 0.5em;
     box-shadow: 1px 1px 5px #333333;
@@ -281,6 +289,12 @@ section #showIteam .iteam .styleIteam .saleImg>img{
     width: 100%;
     object-fit: contain;
     position : relative;
+}
+section #showIteam .iteam .styleIteam:hover .saleImg>img{
+    transform: translateY(10px);
+    animation:transform all linear 0.2s;
+    
+
 }
 section #showIteam .iteam .styleIteam .saleImg>.saleImg-iteam{
     position : absolute;
@@ -310,13 +324,7 @@ section #showIteam .iteam .styleIteam .showIteam-coin .note-Iteam p{
     font-size: 12px ;
     
 }
-section #showIteam .show-grid{
-    /* padding: 0;
-    margin: 0 auto; */
-}
-section #showIteam .iteam2{
-    
-}
+
 
 /* bandner2 */
 section #bandner2{
@@ -338,17 +346,25 @@ section #iteamLap .lapHead{
     min-height: 80px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 section #iteamLap .lapHead h3{
     line-height: 80px;
     margin-left: 10px;
 }
+
+section #showIteam .show-screen-ph  ul,
 section #iteamLap .lapHead .list-brand ul{
+    padding: 0;
     display: flex;
     list-style-type: none;
     line-height: 80px;
+    margin: 0;
 }
+section #showIteam .show-screen-ph  ul{
+    line-height: 56px;
+}
+section #showIteam .show-screen-ph  ul >li a,
 section #iteamLap .lapHead .list-brand ul>li a{
     background-color: #fff;
     margin: 5px 10px;
@@ -358,6 +374,8 @@ section #iteamLap .lapHead .list-brand ul>li a{
     font-family: roboto, arial, helvetica;
     padding: 0 15px;
     border-radius: 4px;
+    box-shadow: 1px 1px 5px #333333;
+
 }
 section #iteamLap .downs{
     margin-left: 90%;
@@ -445,4 +463,102 @@ section #iteamLap .downs{
 #footer .footer-show .show-service2 .icon-social i{
     font-size: 35px;
     margin-right: 10px;
+}
+.login-user{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0,0, 0.2);
+    z-index:3;
+}
+.hide{
+    display: none;
+}
+#login .show-login{
+    display: flex;
+    justify-content: space-between;
+}
+#login .login-iteam{
+    display: none;
+}
+#login .box-login{
+    margin: 10vh auto;
+    padding: 20px;
+    width: 400px;
+    /* max-width: 400px; */
+    max-width:calc(100% - 20px);
+    box-shadow: 0 0 10px rgba(0, 0,0, 0.5);
+    border: 1px solid #332A05;
+    background-color: #EEF2F4;
+    animation:login-user ease 0.3s;
+}
+
+#login .show-login> h3{
+    cursor: pointer;
+    font-weight: 600;
+}
+#login .show-login> h3:hover{
+    opacity: 0.8;
+}
+#login .login-iteam .email input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+#login .login-iteam .email .border{
+    border: 2px solid #DE0B25 !important;
+}
+#login .login-iteam .email .form-mesage{
+    font-size: 12px;
+}
+#login .login-iteam .email{
+    margin: 10px 0;
+}
+#login .login-iteam .check-input{
+    display: flex;
+}
+#login .login-iteam .check-input >input{
+    margin-right: 6px;
+}
+#login .login-iteam >i{
+    font-size: 12px;
+    margin-top: -20px;
+}
+
+#login .sub-btn{
+    background-color: #007AC6;
+    color: #fff;
+    padding: 8px 30px ;
+    width: 100%;
+    border: none;
+    margin-top: 30px ;
+    display: none;
+}
+#login .submit-log .subBtn{
+    color: #007AC6;
+}
+#login .submit-log button:hover{
+    background-color: #ccc;
+    color: #332A05;
+}
+#login .active-color{
+    color: #DE0B25;
+}
+#login .active{
+    display: block;
+}
+
+
+@keyframes login-user{
+    from{
+        transform:translateY(-60px);
+        opacity: 0;
+    }
+    to{
+        transform:translateY(0);
+        opacity: 1;
+    }
 }
