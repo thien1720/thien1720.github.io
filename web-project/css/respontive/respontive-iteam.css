@@ -130,6 +130,9 @@
     section #showIteam .iteam .styleIteam .showIteam-coin .iteamCoin .sale-iteamCoin{
         margin: 0;
     }
+    section #showIteam .iteam .styleIteam{
+        margin: 0 0.5em;
+    }
     #footer .footer-show{
         display: block;
         text-align: center;
@@ -145,6 +148,9 @@
 }
 
 @media (min-width:768px) and (max-width:991px) {
+    section #showIteam .iteam .styleIteam{
+        margin: 0 0.5em;
+    }
     section #bandner .bandner-img{
         max-height: 266px;
     }

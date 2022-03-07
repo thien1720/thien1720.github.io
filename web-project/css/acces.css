@@ -320,7 +320,7 @@ section #showIteam .showIteamGrid{
 }
 
 section #showIteam .iteam .styleIteam{
-    margin: 0 5px;
+    margin: 0 auto;
     box-shadow: 1px 1px 5px #333333;
     max-width:270px;
     min-height: 350px;

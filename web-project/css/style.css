@@ -304,7 +304,7 @@ section #showIteam .showIteamGrid-sale {
     color: #332A05;
 } */
 section #showIteam .iteam .styleIteam{
-    margin: 0 0.5em;
+    margin: 0 auto;
     box-shadow: 1px 1px 5px #333333;
     max-width:270px;
     min-height: 350px;
