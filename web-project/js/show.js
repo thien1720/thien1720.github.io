@@ -42,6 +42,30 @@ for(let boxOption of boxColor) {
     })
 }
 
+
+// $('#content .content-iteam .content-grid .content-styleIteam .img-nav').slick({
+    
+// });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// validater form
 ;
 // let renderComment = document.querySelecter("#render-coment")
 function Validater(option){

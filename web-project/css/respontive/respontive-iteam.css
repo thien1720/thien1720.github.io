@@ -20,7 +20,7 @@
     }
    
     section #showIteam .iteam .styleIteam {
-        min-height: 375px;
+        min-height: 385px;
     }
     section #bandner .bandner-img{
         max-height: 146px;
@@ -48,6 +48,10 @@
         cursor: pointer;
         width: 20px;
         height: 20px;
+    }
+    section .content-text, 
+    section #iteamLap{
+        margin: 30px 0;
     }
     section #bandner .bandner-img{
         max-height: 220px;

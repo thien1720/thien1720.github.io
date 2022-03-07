@@ -83,7 +83,7 @@ header #header-nav .header-icon{
     line-height:100px;
 }
 header #header-nav .header-icon img{
-    margin: 0 1em;
+    margin: 0 0.5em;
     cursor: pointer;
     width: 24px;
     height: 30px;
@@ -285,10 +285,12 @@ body > hr,
     width: 38px;
     text-align:center;
 }
+#show-iteam .sub-detail .more-iteam .more-click span,
 #show-iteam .sub-detail .more-iteam .more-click button{
     width: 28px ;
     border:1px solid #ccc;
     margin: 0 2px;
+    text-align: center;
 }
 #show-iteam .sub-detail .more-iteam .more-click button:hover{
     background-color:#ccc;
@@ -392,6 +394,10 @@ body > hr,
 #address-user .form-input-list .name-email .form-group,
 #address-user .form-input-list .com .form-group{
     margin-bottom: 20px;
+}
+#address-user .form-input-list .name-email .form-group span,
+#address-user .form-input-list .com .form-group span{
+    font-size: 12px;
 }
 #address-user .form-input-list .com .email input,
 #address-user .form-input-list .com textarea{

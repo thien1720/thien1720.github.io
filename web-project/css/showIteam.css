@@ -228,23 +228,35 @@ header #header-option .option-icon >i{
     
     margin: 50px 8%;
 }
-
-#content .content-iteam .content-grid .content-styleIteam>img{
+#content .content-iteam .content-grid .content-styleIteam .prent-img{
+    
+}
+#content .content-iteam .content-grid .content-styleIteam .prent-img .prent-img_nav>img{
     width: 100%;
     height:280px;
     object-fit:contain;
-    margin: 0 auto  ;
 }
 #content .content-iteam .content-grid .content-styleIteam .img-nav{
-    margin: 0 auto;
-    width: 100%;
     display: flex;
+    align-items: center;
+}
+#content .content-iteam .content-grid .content-styleIteam .img-nav .img-nav_style{
+    height: 65px;
 }
 #content .content-iteam .content-grid .content-styleIteam .img-nav img{
-    object-fit:contain;
-    margin: 0 5px;
-    padding: 0.2rem;
-    width:23%;
+    object-fit:cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    border: 1px solid #332A05;
+}
+.slick-initialized .slick-slide{
+    margin: 0 2px;
+}
+.slick-slider button{
+    background-color: #fff;
+    border: none;
+    color: #332A05 !important;
 }
 #content .content-iteam .content-grid .content-styleIteam .sub-total .sub-nav,
 #content .content-iteam .content-grid .content-styleIteam .sub-total >button{
@@ -388,6 +400,31 @@ header #header-option .option-icon >i{
     line-height: 1.6;
     margin: 20px 8%;
     background-color: #E5E5E5;
+    /* height: 300px ; */
+    overflow: hidden;
+    position: relative;
+}
+#description .content-showIteam{
+    height: 300px;
+}
+#description .show-text {
+    position: absolute;
+    
+    left: 50%;
+    transform: translate(-50% , -220%);
+}
+#description .show-text-height {
+    background-color: #EEF2F4;
+    padding: 0 20px;
+    border: none;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+#description .show-text .show-text-height:hover{
+    opacity: 1;
+}
+#description .text-height {
+    height: 100%;
 }
 #description .content-text .content-img{
     background-image: url(https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
@@ -426,6 +463,7 @@ header #header-option .option-icon >i{
 
 #iteam-alike .description-nav .show-grid .showIteamGrid{
     margin:0 auto;
+    border: 2px solid #332A05;
 }
 
 #iteam-alike .description-nav .show-grid .iteam .styleIteam{
@@ -440,6 +478,12 @@ header #header-option .option-icon >i{
     width: 100%;
     object-fit: contain;
     position : relative;
+}
+#iteam-alike .description-nav .show-grid .iteam .styleIteam .saleImg>img:hover{
+    transform: translateY(10px);
+    animation:transform all linear 0.2s;
+    
+
 }
 #iteam-alike .description-nav .show-grid .iteam .styleIteam .saleImg>.saleImg-iteam{
     position : absolute;
@@ -466,6 +510,7 @@ header #header-option .option-icon >i{
     font-size: 12px ;
     
 }
+
 #form-input .form-input-list .name-email .com textarea:focus,
 #form-input .form-input-list .name-email .email input:focus{
     outline: none;
@@ -521,6 +566,7 @@ header #header-option .option-icon >i{
     border: none;
     border-radius: 4px ;
 }
+
 #form-input .form-input-list .submit-form button:hover{
     background-color: #EEF2F4;
     color: #332A05;
@@ -547,21 +593,22 @@ header #header-option .option-icon >i{
     margin-right: 10px ;
     border:1px solid #ccc;
 }
-#render-coment .user-coment .content-text >span{
+
+#render-coment .user-coment .content-text_comment >span{
     display: flex;
     
 }
-#render-coment .user-coment .content-text p{
+#render-coment .user-coment .content-text_comment p{
     margin-bottom: 0;
 }
-#render-coment .user-coment .content-text >span p{
+#render-coment .user-coment .content-text_comment >span p{
     opacity: 0.5;
 }
-#render-coment .user-coment .content-text >span a,
-#render-coment .user-coment .content-text >span i{
+#render-coment .user-coment .content-text_comment >span a,
+#render-coment .user-coment .content-text_comment >span i{
     margin: 0 5px;
 }
-#render-coment .user-coment .content-text >span a{
+#render-coment .user-coment .content-text_comment >span a{
     color: #007AC6;
 }
 #footer {

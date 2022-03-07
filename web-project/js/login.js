@@ -8,7 +8,7 @@ const boxLogin = $("#login .box-login")
 const nameSub = $$(".show-login .name-sub")
 const loginIteams = $$(".box-login .login-iteam")
 
-console.log(loginIteams)
+// console.log(loginIteams)
 for(let subBtn of subBtns){               
     subBtn.addEventListener("click",hideLogin)
         function hideLogin(event){

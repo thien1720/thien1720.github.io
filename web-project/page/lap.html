@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/lap.css">
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      />
     <link rel="stylesheet" href="../css/respontive/respontive-iteam.css">
     <title>project-laptop</title>
 </head>
@@ -89,8 +94,8 @@
                 </div>
             </div>
             <ul>
-                <li> <a href="../index.html" class="option-color">  Trang Chủ</a> </li>
-                <li><a href="../page/lap.html" class="header-option-way">Latop</a></li>
+                <li> <a href="../index.html" class="">  Trang Chủ</a> </li>
+                <li><a href="../page/lap.html" class="header-option-way option-color">Latop</a></li>
                 <li><a href="../page/tablet.html" class="header-option-way">Tablet</a></li>
                 <li><a href="../page/phone.html" class="header-option-way">Điện Thoại</a></li>
                 <li><a href="../page/acces.html" class="header-option-way">Phụ Kiện</a></li>
@@ -108,21 +113,19 @@
     </header>
     <!-- bandner -->
     <section>
-        <div id="bandner">
-            
-            <div class="sub-text">
-                <h3><a href="../index.html">Trang chủ</a>/ <a href="../page/lap.html">Laptop</a></h3>
-            </div>
-            
-            <div class="bandner-img">
-
-            </div>
-            <!-- <img src="../image/slice/ảnh-slice2.jpg" alt=""> -->
-           
-            
-            
+        <div class="bandner">
+          <div class="bandner-nav">
+            <img src="../image/slice/web-macbook-air-01.jpg" alt="">
+          </div>
+          <div class="bandner-nav">
+            <img src="../image/slice/web-realme-9-pro-01.jpg" alt="">
+          </div>
+          <div class="bandner-nav">
+            <img src="../image/slice/menu-slice.png" alt="">
+          </div>
+          
         </div>
-    </section>
+      </section>
 
     <!-- phần falsh sale -->
     <section>
@@ -131,7 +134,7 @@
             <div class="container">
                 <!-- <i class="showLeft map-left fas fa-chevron-left"></i> -->
 
-                <div class="showIteamGrid row">
+                <div class="showIteamGrid showIteamGrid-sale row slide1">
                     <!-- <i class="showLeft map-left fas fa-chevron-left"></i> -->
 
                     <div class="iteam col-6 col-lg-3 col-md-3 col-sm-6">
@@ -184,7 +187,7 @@
                         </div>
         
                     </div>
-                    <div class="iteam iteam-style2 col-lg-3 col-md-3 col-sm-6">
+                    <div class="iteam  col-lg-3 col-md-3 col-sm-6">
                         <div class="styleIteam">
                             <a href="../page/showIteam.html">
 
@@ -210,7 +213,33 @@
                         </div>
         
                     </div>
-                    <div class="iteam iteam-style2 col-lg-3 col-md-3 col-sm-6">
+                    <div class="iteam  col-lg-3 col-md-3 col-sm-6">
+                        <div class="styleIteam">
+                            <a href="../page/showIteam.html">
+
+                                <div class="saleImg">
+                                    <p class="saleImg-iteam">Sale 20%</p>
+                                    <img src="../image/Sale-laptop/laptop-hp-15s.webp" alt="">
+                                </div>
+                                <div class="showIteam-coin">
+                                    <p>Laptop HP 15S-FQ2558TU 46M26PA </p>
+                                    <div class="iteamCoin">
+                                        <p class="coin">18.050.000đ
+                                        </p>
+                                        <div class="sale-iteamCoin">
+                                            <p>21.100.000đ
+                                            </p>
+                                           
+                                        </div>
+                                    </div>
+                                    <p>Tặng phiếu mua hàng trị giá : 150.000đ</p>
+                                    </div>
+                            </a>
+                        </div>
+        
+                    </div>
+
+                    <div class="iteam  col-lg-3 col-md-3 col-sm-6">
                         <div class="styleIteam">
                             <a href="../page/showIteam.html">
 
@@ -928,6 +957,14 @@
         <h3 class="header-text">Bài viết công nghệ</h3>
 
         <div class="content-text">
+
+            <div class="show-text">
+                <button class="show-text-height">Xem thêm
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+
+            </div>
+            
             <div class="firt-text">
                 <h5>Máy tính xách tay (laptop) - Phục vụ công việc, học tập, giải trí
                 </h5>
@@ -1096,6 +1133,21 @@
                 </div>
             </div>
         </div>
+
+        <script
+        type="text/javascript"
+        src="https://code.jquery.com/jquery-1.11.0.min.js"
+        ></script>
+        <script
+        type="text/javascript"
+        src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+        ></script>
+        <script
+        type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+        ></script>
+    
+        <script src="../js/app3.js" ></script>
 
         <script  src="../js/main.js"></script>
         <script  src="../js/login.js"></script>   

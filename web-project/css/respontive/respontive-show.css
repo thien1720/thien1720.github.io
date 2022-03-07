@@ -145,10 +145,17 @@
     #render-coment .user-coment .customer .content-text h5{
         font-size: 18px;
     }
-    
+    #content .content-iteam .content-grid .content-styleIteam .img-nav img{
+        object-fit: contain;
+    }
+    .slick-initialized .slick-slide{
+        margin:0 4px
+    }
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
+    
+    
     header #header-option ul li >a {
         font-size: 18px;
     }
@@ -159,8 +166,8 @@
     #iteam-alike .description-nav .show-grid .iteam .styleIteam .showIteam-coin .iteamCoin{
         display: block;
     }
-    #content .content-iteam .content-grid .content-styleIteam .img-nav{
-        display: flex;
+    #content .content-iteam .content-grid .content-styleIteam .img-nav .img-nav_style{
+        height: 50px;
     }
     #content .content-iteam .content-grid .content-styleIteam .sub-total >a p,
     #content .content-iteam .content-grid .content-styleIteam .sub-nav a p{

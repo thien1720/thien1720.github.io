@@ -11,19 +11,22 @@ const filterContnet =$("section #showIteam .show-grid .Option-filter .content-fi
 const overlayFilter = $("section #showIteam .show-grid .Option-filter .nav-overlay")
 const filterApply = $("section #showIteam .show-grid .Option-filter .content-filter .filter-apply .sub-apply")
 
-console.log(filterApply)
+const contentText = $(".content-text")
+const contentIteam = $$('.content-showIteam')
+const showText = $(".show-text")
+// console.log(contentIteam)
 
 
 navBar.addEventListener("click" , menuBar)
 existsBar.addEventListener("click",unAcitve)
+showText.addEventListener("click",showContent)
+showText.addEventListener('click',showIteams)
 filtered.addEventListener("click",listFilter)
 filterApply.addEventListener("click",existsFilter)
 
 // let isSuccesed = true
 
 function menuBar(){
-
-   
         overlay.classList.add("content-active")
         menu.classList.add("option-mobile_scrol")
      
@@ -54,4 +57,17 @@ function existsFilter(){
     }
     filterContnet.classList.remove("option-mobile_scrol")
     overlayFilter.classList.add("content-unactive")
+}
+
+function showContent(){
+    showText.classList.add('content-unactive')
+    contentText.classList.add('text-height')
+
+}
+
+function showIteams(){
+    for(let i = 0;i< contentIteam.length ; i++){
+        console.log(contentIteam[i])
+        contentIteam[i].classList.remove('content-showIteam')
+    }
 }

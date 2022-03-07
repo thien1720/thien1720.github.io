@@ -1,8 +1,4 @@
 @media (max-width: 575px) {
-   
-    section #bandner2{
-        max-height: 62px  !important;
-    }
     header #header-nav{
         height: 70px;
     }
@@ -57,14 +53,9 @@
         margin: 0 4px;
     }
     
-    section #bandner{
-        max-height: 200px;
-    }
+   
     header #header-option{
         height: 64px;
-    }
-    section #bandner2{
-        max-height: 100px;
     }
     header #header-option .option-icon i:nth-child(2),
     header #header-option > ul,
@@ -176,16 +167,16 @@
         margin: 50px 4% 0;    
         
     }
-    section #showIteam .iteam .styleIteam{
+    /* section #showIteam .iteam .styleIteam{
         margin: 0 10px ;
-    }
+    } */
     header #header-option .option-icon >i {
         font-size: 30px;
        
     }
-    section #bandner{
+    /* section #bandner{
         height: 254px;
-    }
+    } */
     section .flash-sale{
         margin-left: 50px;
         
@@ -209,6 +200,12 @@
     }
     section #iteamLap .downs{
         margin-left: 80%;
+    }
+    section #bandner2{
+        min-height: 11vh;
+    }
+    section #showIteam .iteam .styleIteam .showIteam-coin .iteamCoin .sale-iteamCoin{
+        margin: 0;
     }
 }
 @media (min-width:992px) and (max-width:1200px) {
