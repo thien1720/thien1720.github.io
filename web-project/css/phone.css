@@ -496,6 +496,7 @@ section .content-text .firt-text >p{
 }
 #footer .footer-show ul li{
         margin: 5px 0;
+        cursor: pointer;
 }
 #footer .show-company >img{
         width: 194px;
@@ -509,6 +510,7 @@ section .content-text .firt-text >p{
 #footer .footer-show .show-service2 .icon-social i{
         font-size: 35px;
         margin-right: 10px;
+        cursor: pointer;
 }
 
 

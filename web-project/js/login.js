@@ -1,21 +1,45 @@
 // const $ = document.querySelector.bind(document)
 // const $$ = document.querySelectorAll.bind(document)
-const subInput = $$("#login .login-iteam .email input")
+const subInputs = $$("#login .login-iteam .email input")
 const formLogin = $(".login-user")
 const iconLogin = $(".show-login-tab ")
 const subBtns = $$(".sub-btn")
 const boxLogin = $("#login .box-login")
 const nameSub = $$(".show-login .name-sub")
 const loginIteams = $$(".box-login .login-iteam")
+const subShow = $$('.sub-btn')
+const deleteInputs = $('.delete-text')
+const prentElement = $('.com')
+console.log(subShow)
 
-// console.log(loginIteams)
+function removeInput(){
+    deleteInputs.focus()
+    deleteInputs.value = ''
+    prentElement.querySelector('.form-mesage').classList.add('content-unactive')
+    // deleteInputs.classList.remove('border')
+    // console.log()
+}
+
+
+
 for(let subBtn of subBtns){               
     subBtn.addEventListener("click",hideLogin)
         function hideLogin(event){
             event.preventDefault()
             formLogin.classList.add("hide")
-            subInput.value == 0
+            for(let subInput of subInputs){
+                if(subInput){
+                    subInput.value = ""
+                }
+            }
 }}
+
+
+
+subShow.forEach(function(sub){
+    sub.addEventListener('click' , removeInput)
+})
+    
 
 formLogin.addEventListener("click", hideLogin)
 
