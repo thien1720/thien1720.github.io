@@ -1,0 +1,141 @@
+@media (max-width: 575px) {
+    header #header-nav{
+        height: 70px;
+    }
+    header #header-nav .header-logo img {
+        width: 70px;
+    }
+    header #header-nav .header-input .style-input{
+        height: 35px;
+    }
+    header #header-nav .header-icon{
+        line-height: 70px;
+    }
+    header #header-nav .header-input .style-input .header-inputElement {
+        padding: 7px;
+    }
+    #content .content-iteam .content-text .style-img img{
+        height:100px
+    }
+    #content .style-height{
+        padding: 0 5%;
+    }
+    #page .next-page .page-nunber{
+        width: 26px;
+        height: 26px;
+    }
+    #content .content-iteam .content-text .style-text .style-list_text{
+        font-size: 10px;
+    }
+    #content .content-iteam .content-text .style-text .style-time{
+        font-size: 8px;
+    }
+ 
+}
+@media  (max-width:767px) {
+   
+    header #header-nav .header-input  input{
+        padding-right: 0;
+        width: 116px;
+    }
+    header #header-nav .header-icon img {
+        margin: 0 0.5em;
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+    }
+    section #showIteam .show-screen-ph  ul,
+    header #header-option {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    header #header-option .option-icon{
+        margin-right: 6%;
+    }
+    header #header-option .option-bar {
+        display: block;
+        margin-left: 6%;
+    }
+    header #header-option .option-icon i,
+    header #header-option .option-bar i{
+        font-size: 30px;
+        line-height: 64px;
+        margin: 0 4px;
+    }
+    
+   
+    header #header-option{
+        height: 64px;
+    }
+    header #header-option .option-icon i:nth-child(2),
+    header #header-option > ul,
+    section #showIteam .showIteamGrid .iteam-style2,
+    section #iteamLap .lapHead .list-brand ul,
+    section #showIteam .showRight,
+    section #showIteam .showLeft{
+        display:none;
+    }
+    /* #content .grid-iteam{
+        display: flex;
+        flex-direction: column-reverse;
+    } */
+    #footer .footer-show{
+        display: block;
+        text-align: center;
+    }
+    #footer .show-company >img{
+        height: 135px;
+        width: 135px;
+    }
+    #footer .footer-show .show-service2 .icon-social i{
+        font-size: 30px;
+    }
+    #login .box-login .show-login h3{
+        font-size: 20px;
+    }
+} 
+@media (min-width:768px) and (max-width:991px) {
+
+    header #header-nav .header-input img{
+        position:absolute;
+        right: 34%;
+        top:3%; 
+    }
+    header #header-nav .header-icon img {
+        margin: 0 1em;
+        cursor: pointer;
+        width: 24px;
+        height: 34px;
+    }
+    header #header-option ul li >a{
+        font-size: 20px;
+       
+    }
+    section #iteamLap {
+        margin: 50px 4% 0;    
+        
+    }
+  
+    header #header-option .option-icon >i {
+        font-size: 30px;
+       
+    }
+    #content .style-height h5,
+    #content .container-head{
+        font-size: 20px;
+    }
+    #content .content-iteam .content-text .style-text .style-time{
+        font-size: 10px;
+    }
+    #content .content-iteam .content-text .style-text .style-list_text{
+        font-size: 12px;
+    }
+}
+    
+@media (min-width:992px) and (max-width:1200px) {
+    /* header #header-option ul li >a{
+        font-size: 22px;
+        margin:0 10px;      
+    } */
+}

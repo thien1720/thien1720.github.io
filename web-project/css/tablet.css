@@ -70,9 +70,9 @@ header #header-nav .header-icon{
     line-height:100px;
 }
 header #header-nav .header-icon img{
-    margin: 0 1em;
+    margin: 0 0.5em;
     cursor: pointer;
-    width: 24px;
+    width: 28px;
     height: 30px
 }
 header #header-option {
@@ -130,16 +130,20 @@ section #showIteam .show-grid .Option-filter .show-style{
     padding: 10px;
     overflow: auto;
 }
+
 section #showIteam .show-grid .Option-filter .content-filter .iteam-Sub{
     background-color: #fff;
     padding: 10px;
+    height: 80px;
 }
+
 section #showIteam .show-grid .Option-filter .content-filter .filter-apply{
     position: absolute;
     right:0;
     margin-top:10px;
     margin-right:10px ;
 }
+section #iteamLap .layout-gridOption .lap-option .filter-apply .sub-apply,
 section #showIteam .show-grid .Option-filter .content-filter .filter-apply .sub-apply{
     background-color:#E55339;
     color: #fff;
@@ -147,11 +151,23 @@ section #showIteam .show-grid .Option-filter .content-filter .filter-apply .sub-
     border: none;
 
 }
+section #iteamLap .layout-gridOption .lap-option .filter-apply .sub-apply:hover,
+section #showIteam .show-grid .Option-filter .content-filter .filter-apply .sub-apply:hover{
+
+    background-color: #EEF2F4;
+    color: #332A05;
+}
 .filter-sub,
 section #showIteam .show-grid .Option-filter .content-filter .iteam-Sub .filter-sub{
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.5em;
+}
+.filter-apply ,
+section #showIteam .show-grid .Option-filter{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.6em;
 }
 section #iteamLap .layout-gridOption .lap-option .iteam-Sub .filter-sub i {
     font-size: 25px;
@@ -269,10 +285,10 @@ section .bandner .bandner-nav img{
      background-color:#EEF2F4
  }
  
- section #showIteam .showIteamGrid-sale {
+ /* section #showIteam .showIteamGrid-sale {
     border:4px solid #eee;
     box-shadow: 0 0 10px rgba(0, 0,0, 0.5);
-}
+} */
 section #showIteam .showIteamGrid-sale .iteam{
     padding:0;
 }
@@ -375,8 +391,8 @@ section #iteamLap {
 }
 section #iteamLap .lapHead{
     background-color: #007AC6;
-    /* height: 80px; */
-    min-height: 80px;
+    height: 80px;
+    /* min-height: 80px; */
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
@@ -422,6 +438,9 @@ section .next-page .page-nunber{
     align-items: center;
     cursor:pointer;
 }
+section .next-page .style-page{
+    border: 1px solid #332A05;
+}
 section .next-page .page-nunber .page-color{
     color: #007AC6;
 }
@@ -460,10 +479,10 @@ section .content-text.text-height {
     height: 100%;
 }
 section .content-text .content-img{
-    background-image: url(../image/Tab/writing.jpg);
+    background-image: url(../image/wrrting/weiting-tablet.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50% ;
-    background-size:cover;
+    background-size:contain;
     height: 400px;
     max-height: 400px;
 }
@@ -481,7 +500,7 @@ section .content-text .firt-text >p{
 #footer {
         padding: 20px 0;
         margin-top: 50px;
-        background-color: #007AC6;
+        background-color: #EEF2F4;
 }
 #footer .footer-show{
         display: flex;
@@ -513,6 +532,16 @@ section .content-text .firt-text >p{
         font-size: 35px;
         margin-right: 10px;
         cursor: pointer;
+}
+#footer .footer-show .show-service2 .icon-social .facebook-color{
+    color: rgb(59, 89, 152);
+}
+#footer .footer-show .show-service2 .icon-social .intagram-color{
+    color: rgb(131, 58, 180);
+}#footer .footer-show .show-service2 .icon-social .email-color{
+    color: rgb(242, 101, 34);
+}#footer .footer-show .show-service2 .icon-social .youtube-color{
+    color: rgb(255, 0, 0);
 }
 
 .login-user{

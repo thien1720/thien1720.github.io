@@ -10,16 +10,19 @@ const loginIteams = $$(".box-login .login-iteam")
 const subShow = $$('.sub-btn')
 const deleteInputs = $('.delete-text')
 const prentElement = $('.com')
-console.log(subShow)
+console.log(iconLogin ,formLogin)
 
 function removeInput(){
     deleteInputs.focus()
     deleteInputs.value = ''
     prentElement.querySelector('.form-mesage').classList.add('content-unactive')
-    // deleteInputs.classList.remove('border')
-    // console.log()
+    
 }
 
+function showLogin(){
+    console.log('hien')
+    formLogin.classList.remove("hide")
+}
 
 
 for(let subBtn of subBtns){               
@@ -40,13 +43,10 @@ subShow.forEach(function(sub){
     sub.addEventListener('click' , removeInput)
 })
     
-
 formLogin.addEventListener("click", hideLogin)
 
 iconLogin.addEventListener("click", showLogin)
-function showLogin(){
-    formLogin.classList.remove("hide")
-}
+
 
 boxLogin.addEventListener("click", function(event){
     event.stopPropagation()

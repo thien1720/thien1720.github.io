@@ -11,12 +11,34 @@
     header #header-nav .header-icon{
         line-height: 70px;
     }
+    
     header #header-nav .header-input .style-input .header-inputElement {
         padding: 7px;
     }
     section #showIteam .show-screen-ph  ul >li a{
         font-size: 16px;
         margin: 0 2px;
+        padding: 0 5px;
+    }
+    header #header-option .option-bar i,
+    header #header-option i{
+        line-height: 64px;
+    }
+    #newIteam {
+        margin-top: 80px;
+    }
+    #newIteam >h3{
+        top: -45px;
+    }
+    section #showIteam .showIteamGrid .iteam2{
+        padding: 0;
+    }
+    section #iteamLap .lapHead{
+        height: 60px;
+    }
+    section #iteamLap .lapHead h3{
+        line-height: 60px;
+        font-size: 20px;
     }
 }
 @media  (max-width:767px) {
@@ -46,13 +68,12 @@
         display: block;
         margin-left: 6%;
     }
-    header #header-option .option-icon i,
-    header #header-option .option-bar i{
-        font-size: 30px;
-        line-height: 64px;
-        margin: 0 4px;
-    }
     
+    header #header-option .option-icon .style-icon,
+    header #header-option .option-bar i{
+        font-size: 24px;
+    }
+
    
     header #header-option{
         height: 64px;
@@ -109,7 +130,7 @@
     #option .option-style .option-iteam p{
         font-size: 18px;
     }
-    #option .option-style .option-iteam i{
+    #option .option-style .option-iteam .option-sub >i{
         font-size: 10px;
     }
    
@@ -117,7 +138,7 @@
         min-height: 320px;
     }
     #option .option-style .option-iteam .option-sub >p{
-        font-size: 20px;
+        font-size: 18   px;
     }
     section #showIteam .iteam .styleIteam .showIteam-coin .iteamCoin .sale-iteamCoin{
         margin-left: 0;
@@ -154,10 +175,10 @@
         top:3%; 
     }
     header #header-nav .header-icon img {
-        margin: 0 1em;
+        margin: 0 0.5em;
         cursor: pointer;
-        width: 24px;
-        height: 34px;
+        /* width: 24px;
+        height: 34px; */
     }
     header #header-option ul li >a{
         font-size: 20px;
