@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/cart.css">
+    <link rel="stylesheet" href="../css/respontive/respontive-cart.css">
+    <title>Giỏ hàng</title>
+</head>
+<body>
+    <!-- phẩn header -->
+    <header>
+        <div id="header-nav">
+            <div class="header-logo">
+                <img src="../image/LogoBrand.png" alt="">
+            </div>
+            <div class="header-input">
+                <div class="style-input">
+                    <input type="text" placeholder="Tìm kiếm sản phẩm">
+                    <div class="header-inputElement">
+                    <i class="fas fa-search"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="header-icon">
+                <img src="../image/header-phone.png" alt="">
+                <img src="../image/header-ship.png" alt="">
+                <img src="../image/header-map.png" alt="">
+
+            </div>
+        </div>
+        <div id="header-option">
+            <div class="option-bar">
+                <i class="fas fa-bars"></i>
+
+                <div class="nav-overlay content-unactive" ></div>
+
+                <div class="option-mobile">
+                    <i class="fa-solid fa-xmark"></i>
+                    <ul class="option-style_mobi">
+                        <li>
+                            <div class="user">
+                                <img src="../image/image-user.jpg" alt="">
+                                <p class="name-user">Phạm Văn Thiên</p>
+                            </div>
+                        </li>
+
+                        <li class="option-style-mobiles">
+                            <i class="fa-solid fa-house"></i>
+                            <a href="../index.html" class="option-link">Trang Chủ</a></li>
+                            <hr style="margin: 0 ; height:2px;border-width:0;color:gray;background-color:gray">
+                        
+                        <li class="option-style-mobiles">
+                            <i class="fa-solid fa-laptop"></i>
+                            <a href="../page/lap.html" class="option-link">Laptop</a></li>
+                            <hr style="margin: 0 ; height:2px;border-width:0;color:gray;background-color:gray">
+
+
+                        <li class="option-style-mobiles">
+                            <i class="fa-solid fa-tablet-screen-button"></i>
+                            <a href="../page/tablet.html" class="option-link">Tablet</a></li>
+                            <hr style="margin: 0 ; height:2px;border-width:0;color:gray;background-color:gray">
+
+                        <li class="option-style-mobiles">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            <a href="../page/phone.html" class="option-link">Điên Thoại</a></li>
+                            <hr style="margin: 0 ; height:2px;border-width:0;color:gray;background-color:gray">
+
+                        <li class="option-style-mobiles">
+                            <i class="fa-solid fa-keyboard"></i>
+                            <a href="../page/acces.html" class="option-link">Phụ Kiện</a></li>
+                            <hr style="margin: 0 ; height:2px;border-width:0;color:gray;background-color:gray">
+
+                        <li class="option-style-mobiles">
+                            <i class="fa-solid fa-address-card"></i>
+                            <a href="../page/text.html" class="option-link">Bài Viết</a></li>
+                            <hr style="margin: 0 ; height:2px;border-width:0;color:gray;background-color:gray">
+
+                        <li class="option-style-mobiles">
+                            <i class="fa-solid fa-right-to-bracket"></i>
+                            <a href="../index.html" class="option-link">Đăng xuất</a></li>
+                            <hr style="margin: 0 ; height:2px;border-width:0;color:gray;background-color:gray">
+
+                    </ul>
+                </div>
+            </div>
+            <ul>
+                <li> <a href="../index.html" class="">Trang Chủ</a> </li>
+                <li><a href="../page/lap.html" class="header-option-way">Latop</a></li>
+                <li><a href="../page/tablet.html" class="header-option-way">Tablet</a></li>
+                <li><a href="../page/phone.html" class="header-option-way">Điện Thoại</a></li>
+                <li><a href="../page/acces.html" class="header-option-way">Phụ Kiện</a></li>
+                <li><a href="../page/text.html" class="header-option-way">Bài Viết</a></li>
+            </ul>
+            <div class="option-icon">
+                <a href="../page/cart.html">
+                    <i class="shop-color style-icon fas fa-cart-plus"></i>
+                </a>
+                <a href="#">
+                    <i class="show-login-tab style-icon far fa-user-circle"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+
+    <section>
+        <div id="show-iteam">
+            <div class="sub-text">
+                <h3><a href="#">Trang chủ</a>/ <a href="#">Giỏ hàng</a></h3>
+                <h3>
+                    Giỏ hàng của bạn có 2 sản phẩm
+                </h3>
+            </div>
+
+            <div class="render">
+
+                <div id="item-0" class="sub-detail">
+                    <div class="detail-img detail-style">
+                        <img src="../image/Lap/macAir.jpg" alt="">
+                    </div>
+    
+                    <div class="detail-grid ">
+                        <div class="detail-nameIteam detail-style">
+                            <p>Apple MacBook Air M1 16GB 256GB 2020 I Chính hãng Apple Việt Nam</p>
+                            <div class="showIteam-coin">
+                                
+                                <div class="iteamCoin">
+                                    <p class="coin">24.790.000đ</p>
+                                    <div class="sale-iteamCoin">
+                                        <p>28.990.000</p>
+                                        
+                                    </div>
+                                </div>
+                                
+                            </div>
+        
+                            
+                        </div>
+                        <div class="more-iteam detail-style">
+                            <div class="more-click">
+                                <button class="click-down">-</button>
+                                <span  id="item-0-amount">1</span>
+                                <button class="click-up">+</button>
+                            </div>
+        
+                            <div class="remove-iteam">
+                                <i>xóa sản phẩm
+                                    <i class="far fa-trash-alt"></i>
+                                </i>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+    
+                    <div class="show-coin detail-style">
+                        <p>Tạm tính</p>
+                        <p class="coin">24.790.000đ</p>
+                    </div>
+                </div>
+                <hr style="height:2px;border-width:0;">
+    
+                
+                <div id="item-1" class="sub-detail">
+                    <div class="detail-img detail-style">
+                        <img src="../image/Lap/macAir.jpg" alt="">
+                    </div>
+                    <div class="detail-grid">
+                        <div class="detail-nameIteam detail-style">
+                            <p>Apple MacBook Air M1 16GB 256GB 2020 I Chính hãng Apple Việt Nam</p>
+                            <div class="showIteam-coin">
+                                
+                                <div class="iteamCoin">
+                                    <p class="coin">24.790.000đ</p>
+                                    <div class="sale-iteamCoin">
+                                        <p>28.990.055</p>
+                                        
+                                    </div>
+                                </div>
+                                
+                            </div>
+        
+                            
+                        </div>
+                        <div class="more-iteam detail-style">
+                            <div class="more-click">
+                                <button class=" click-down">-</button>
+                                <span id="item-1-amount">1</span>
+                                <button class=" click-up">+</button>
+                            </div>
+        
+                            <div class="remove-iteam">
+                                <i>xóa sản phẩm
+                                    <i class="far fa-trash-alt"></i>
+                                </i>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+    
+                    <div class="show-coin detail-style">
+                        <p>Tạm Tính</p>
+                        <p class="coin">24.790.055đ</p>
+                    </div>
+                </div>
+    
+                <hr style="height:2px;border-width:0">
+    
+            </div>
+            
+        </div>
+    </section>
+
+    <hr style="height:2px;border-width:0;;background-color:black">
+
+    <div id="total">
+        <div class="reverse">
+            <div class="sale-iteam">
+                <input type="text" placeholder="Nhập mã giảm giá">
+                <button class="discout-code">
+                    Áp dụng
+                </button>
+            </div>
+    
+            <div class="checked">
+                <div class="total-money">
+                    <p class="total-subtext"> Tổng tiền:</p>
+                    <p class="total-coin text-money">44.700.000đ</p>
+                </div>
+                <div class="total-money">
+                    <p class="total-subtext"> Giá đã được giảm:</p>
+                    <p class="sale-money text-money">0đ</p>
+                </div>
+                <div class="total-money">
+                    <p class="total-subtext">Cần phải thanh toán:</p>
+                    <p class="totalPay text-money">44.700.000đ</p>
+                </div>
+            </div>
+    
+        </div>
+        
+        <div class="line"></div>
+        
+    </div>
+    <hr style="height:2px;border-width:0;;background-color:black">
+
+
+    <div id="address-user">
+        
+            <div class="tab-list-show">
+                <h6>Thông tin khách hàng</h6>  
+            </div>
+
+            <div class="login-iteam">
+
+                <form action="" class="form" id="form-1">
+    
+                    <div class="form-input-list ">
+                        <div class="name-email">
+                            <div class="form-group email">
+                                <p for="fullname" class="form-label">Tên đầy đủ</ơ>
+                                <input  name="fullname" type="text" placeholder="Nhập tên đầy đủ" class="form-control form-fullname">
+                                <span class="form-mesage"></span>
+                            </div>
+                            <div class="form-group email">
+                                <p for="fullname" class="form-label">Số điện thoại</ơ>
+                                <input  name="fullname" type="text" placeholder="Nhập số điện thoại của bạn" class="form-control form-number">
+                                <span class="form-mesage"></span>
+                            </div>
+                        </div>
+                        <div class="com">
+                            <div class="form-group email">
+                                <p for="email" class="form-label">Email</p>
+                                <input name="fullname" type="email" placeholder="Nhập Email của bạn" class="form-email">
+                                <span class="form-mesage"></span>
+                            </div>
+                            <div class="form-group email">
+                                <p>Comment</p>
+                                <textarea rows="9" cols="80" class="form-comment">  
+                                
+                                </textarea>
+                                <span class="form-mesage"></span>
+
+                            </div>
+                        </div>
+            
+                       
+                    </div>
+                </form>
+    
+                <div id="method-payer">
+                    <div class="method-ship">
+                        <h6>Chọn phương thức nhận hàng:</h6>
+                        <div class="method-option">
+                            <input type="radio" name="ship" value=""> giao hàng tại nhà
+                            <input type="radio" name="ship" value=""> lấy hàng tại cửa hàng
+                        </div>
+                    </div>
+    
+                    <div class="method-ship">
+                        <h6>Chọn hình thức thanh toán :</h6>
+                        <div class="method-option">
+                            <input type="radio" name="paying"> Trả tiền mặt khi nhận hàng <br>
+                            <input type="radio" name="paying"> Thanh toán bằng thẻ quốc tế Visa, Master, JCB, AMEX <br>
+                            <input type="radio" name="paying"> Trả góp 0%<br>
+    
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="submit-form">
+                    <button >
+                        Hoàn tất thanh toán
+                    </button>
+                </div>
+            </div>
+    
+    </div>
+
+    <div class="login-user hide">
+        <div id="login">
+            <div class="box-login">
+                <div class="show-login">
+                    <h3 class="name-sub active-color">Đăng nhập </h3>
+                    <h3 class="name-sub "> Đăng ký</h3>
+                </div>
+                    <hr style="margin: 5px; height:2px;border-width:0;;background-color:black">
+                <div class="login-iteam active">
+                    <div class="email ">
+                        <p>Tài khoản
+                        </p>
+                        <input type="text" placeholder="" class="fullname-sub">
+
+                        <span class="form-mesage"></span>
+                    </div>
+                    <div class="email ">
+                        <p>Mật khẩu
+                        </p>
+                        <input type="password" placeholder="" class="password">
+                        <span class="form-mesage"></span>
+
+                    </div>
+                    <div class="check-input">
+                        <input type="checkbox"> Nhớ mật khẩu
+                    </div>
+                </div>
+                <div class="login-iteam ">
+                    <div class="email ">
+                        <p>Tài khoản
+                        </p>
+                        <input type="text" placeholder="" class="fullname-sub">
+                        <span class="form-mesage"></span>
+
+                    </div>
+                    <div class="email ">
+                        <p>Email
+                        </p>
+                        <input type="text" placeholder="" class="email-sub">
+                        <span class="form-mesage"></span>
+
+                    </div>
+                    <div class="email ">
+                        <p>Mật khẩu
+                        </p>
+                        <input type="text" placeholder="" class="password">
+                        <span class="form-mesage"></span>
+
+                    </div>
+                    <div class="email ">
+                        <p>Nhập lại mật khẩu
+                        </p>
+                        <input type="text" placeholder="" class="repeat-password">
+                        <span class="form-mesage"></span>
+
+                    </div>
+                    <i>Chú ý điền đầy đủ thông tin</i>
+                </div>
+    
+                <div class="submit-log">
+                    <button class="sub-btn active">Đăng nhập</button>
+                    <button class="sub-btn ">Đăng ký</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+
+    </div>
+
+    <script  src="../js/main.js"></script>
+    <script src="../js/login.js"></script>
+   
+    <script src="../js/validaterlogin.js"></script>
+    <script>
+        Validater({
+            form:".login-iteam",
+            error: ".form-mesage",
+            rule:[
+                Validater.isrequired("#login .login-iteam .email .fullname-sub" ,"vui lòng nhập tên của bạn"),
+                
+                // Validater.isemail("#login .login-iteam .email .email-sub" ,"Vui lòng nhập email"),
+                Validater.ispassword("#login .login-iteam .email .password", 8),
+                Validater.isrequired("#login .login-iteam .email .repeat-password" ,"Giá trị nhập vào không chính xác"),
+                Validater.isrepeatword("#login .login-iteam .email .repeat-password",
+                function(){
+                    return document.querySelector("#login .login-iteam .email .repeat-password").value
+                },
+                    "Mật khẩu nhập lại không chính xác"),
+                Validater.isrequired("#form-input .form-input-list .name-email .email .fullname-sub" ,"vui lòng nhập tên của bạn"),
+                Validater.isemail("#form-input .form-input-list .name-email .email .email-sub" ,"Vui lòng nhập email"),
+                Validater.isrequired("#form-input .form-input-list .name-email .email .email-sub" ,"Vui lòng nhập email"),
+                Validater.isrequired("#form-input .form-input-list .com .comment-sub"),
+
+
+                Validater.isrequired(".form-fullname"),
+                Validater.isrequired(".form-number"),
+                Validater.isrequired(".form-email"),
+                Validater.isemail(".form-email"),
+                Validater.isrequired(".form-comment"),
+                
+                ],
+
+            onsubmit:function(data){
+                return data
+            },
+            
+
+        })  </script>
+
+        <script src="../js/cart.js"></script>
+    <!-- <script src="../js/cart.js"></script> -->
+</body>

@@ -10,7 +10,7 @@ const loginIteams = $$(".box-login .login-iteam")
 const subShow = $$('.sub-btn')
 const deleteInputs = $('.delete-text')
 const prentElement = $('.com')
-console.log(iconLogin ,formLogin)
+// console.log(iconLogin ,formLogin)
 
 function removeInput(){
     deleteInputs.focus()
@@ -20,7 +20,7 @@ function removeInput(){
 }
 
 function showLogin(){
-    console.log('hien')
+    // console.log('hien')
     formLogin.classList.remove("hide")
 }
 

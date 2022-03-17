@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      />
+      <link rel="shortcut icon" href="../image/LogoBrand.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/showIteam.css">
+    <link rel="stylesheet" href="../css/respontive/respontive-show.css">
+    <title>Sản phẩm</title>
+</head>
+<body>
+    <header>
+        <div id="header-nav">
+            <div class="header-logo">
+                <img src="../image/LogoBrand.png" alt="">
+            </div>
+            <div class="header-input">
+                <div class="style-input">
+                    <input type="text" placeholder="Tìm kiếm sản phẩm">
+                    <div class="header-inputElement">
+                    <i class="fas fa-search"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="header-icon">
+                <img src="../image/header-phone.png" alt="">
+                <img src="../image/header-ship.png" alt="">
+                <img src="../image/header-map.png" alt="">
+
+            </div>
+        </div>
+        <div id="header-option">
+            <div class="option-bar">
+                <i class="fas fa-bars"></i>
+
+                <div class="nav-overlay content-unactive" ></div>
+
+                <div class="option-mobile">
+                    <i class="fa-solid fa-xmark"></i>
+                    <ul class="option-style_mobi">
+                        <li>
+                            <div class="user">
+                                <img src="../image/image-user.jpg" alt="">
+                                <p class="name-user">Phạm Văn Thiên</p>
+                            </div>
+                        </li>
+
+                        <li class="option-style-mobiles">
+                            <i class="fa-solid fa-house"></i>
+                            <a href="../index.html" class="option-link">Trang Chủ</a></li>
+                            <hr style="margin: 0 ; height:2px;border-width:0;color:gray;background-color:gray">
+                        
+                        <li class="option-style-mobiles">
+                            <i class="fa-solid fa-laptop"></i>
+                            <a href="../page/lap.html" class="option-link">Laptop</a></li>
+                            <hr style="margin: 0 ; height:2px;border-width:0;color:gray;background-color:gray">
+
+
+                        <li class="option-style-mobiles">
+                            <i class="fa-solid fa-tablet-screen-button"></i>
+                            <a href="../page/tablet.html" class="option-link">Tablet</a></li>
+                            <hr style="margin: 0 ; height:2px;border-width:0;color:gray;background-color:gray">
+
+                        <li class="option-style-mobiles">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            <a href="../page/phone.html" class="option-link">Điên Thoại</a></li>
+                            <hr style="margin: 0 ; height:2px;border-width:0;color:gray;background-color:gray">
+
+                        <li class="option-style-mobiles">
+                            <i class="fa-solid fa-keyboard"></i>
+                            <a href="../page/acces.html" class="option-link">Phụ Kiện</a></li>
+                            <hr style="margin: 0 ; height:2px;border-width:0;color:gray;background-color:gray">
+
+                        <li class="option-style-mobiles">
+                            <i class="fa-solid fa-address-card"></i>
+                            <a href="../page/text.html" class="option-link">Bài Viết</a></li>
+                            <hr style="margin: 0 ; height:2px;border-width:0;color:gray;background-color:gray">
+
+                        <li class="option-style-mobiles">
+                            <i class="fa-solid fa-right-to-bracket"></i>
+                            <a href="../index.html" class="option-link">Đăng xuất</a></li>
+                            <hr style="margin: 0 ; height:2px;border-width:0;color:gray;background-color:gray">
+
+                    </ul>
+                </div>
+            </div>
+            <ul>
+                <li> <a href="../index.html" class="">Trang Chủ</a> </li>
+                <li><a href="../page/lap.html" class="header-option-way">Latop</a></li>
+                <li><a href="../page/tablet.html" class="header-option-way">Tablet</a></li>
+                <li><a href="../page/phone.html" class="header-option-way">Điện Thoại</a></li>
+                <li><a href="../page/acces.html" class="header-option-way">Phụ Kiện</a></li>
+                <li><a href="../page/text.html" class="header-option-way">Bài Viết</a></li>
+            </ul>
+            <div class="option-icon">
+                <a href="../page/cart.html">
+                    <i class="shop-color style-icon fas fa-cart-plus"></i>
+                </a>
+                <a href="#">
+                    <i class="show-login-tab style-icon far fa-user-circle"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- phần content -->
+    <div class="sub-text">
+        <h3><a href="../index.html">Trang chủ</a>/ <a href="../page/lap.html">Laptop</a>/ <a href="#">Macbook</a></h3>
+    </div>
+
+    <div id="content">
+        <div class="container">
+            <div class="content-iteam row">
+                <div class="content-grid col-md-4 col-sm-12 col-12 mt-3">
+                    <div class="content-styleIteam">
+                        
+
+                        <div class="prent-img">
+                            <div class="prent-img_nav">
+                                <img src="../image/Lap/macAir.jpg" alt="">
+                            </div>
+                            <div class="prent-img_nav">
+                                <img src="../image/Lap/macslice-Pe.png" alt="">
+                            </div><div class="prent-img_nav">
+                                <img src="../image/Lap/captrue-slice.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="img-nav">
+                            <div class="img-nav_style">
+                                <img src="../image/Lap/preview-13.1.png" alt="ảnh đồ công nghệ">
+                            </div>
+                            <div class="img-nav_style">
+                                <img src="../image/lap/preview-13.2.png" alt="ảnh đồ công nghệ">
+                            </div>
+                            <div class="img-nav_style">
+                                <img src="../image/lap/preview-13.png" alt="ảnh đồ công nghệ">
+
+                            </div>
+                            <div class="img-nav_style">
+                                <img src="../image/Lap/slice-mac.webp" alt="">
+
+                            </div>
+                            <div class="img-nav_style">
+                                <img src="../image/Lap/image-removebg-preview-12.png" alt="ảnh đồ công nghệ">
+
+                            </div>
+                            <div class="img-nav_style">
+                                <img src="../image/Lap/slice-mac1.webp" alt="ảnh đồ công nghệ">
+
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="content-grid col-md-4 col-sm-12 col-12 mt-3">
+                    <div class="content-styleIteam">
+                        <b>Laptop Apple M1 - MacBook Air 13</b>
+                        <div class="iteamCoin">
+                            <p class="coin">25.590.000đ</p>
+                            <div class="sale-iteamCoin">
+                                <p>28.390.000đ</p>
+                                
+                            </div>
+                        </div>
+                        <div class="content-option">
+                            <b>Phiên bản lựa chọn:</b>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="option-grid col-6 mb-3 text-center">
+                                        <div class="style-option option-border">
+                                            <p>16G/512GB</p>
+                                            <p class="styleOption-coin">35.690.000đ</p>
+                                        </div>
+                                    </div>
+                                    <div class="option-grid col-6 mb-3 text-center">
+                                        <div class="style-option ">
+                                            <p>16G/512GB</p>
+                                            <p class="styleOption-coin">35.690.000đ</p>
+                                        </div>
+                                    </div>
+                                    <div class="option-grid col-6 mb-3 text-center">
+                                        <div class="style-option ">
+                                            <p>16G/512GB</p>
+                                            <p class="styleOption-coin">35.690.000đ</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="option-color">
+                                <b>Màu Sắc:</b>
+
+                                <div class="option-color2">
+                                    <div class="style-color color-iteam1 option-border">
+
+                                    </div>
+                                    <div class="style-color color-iteam2">
+                                        
+                                    </div>
+                                    <div class="style-color color-iteam3">
+                                        
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="promotion">
+                                <b>Khuyến mại:</b>
+                                <p> <i class="fas fa-check-circle"></i>
+                                    Phầm mềm diệt Viruss từ hãng trị giá 150.000k.
+                                </p>
+                                <p>
+                                    <i class="fas fa-check-circle"></i>
+                                    Thanh toán qua VNPAY - Giảm 100.000đ cho đơn hàng từ 4.000.000đ trở lên, Giảm 150.000đ cho đơn hàng từ 15.000.000đ trở lên .
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-grid col-md-4 col-sm-12 col-12 mt-3">
+                    <div class="content-styleIteam">
+                        <div class="list-total">
+                            <div class="sub-total">
+                                <a href="../page/cart.html">
+                                    <h6>Mua ngay</h6>
+                                    <p>(giao hàng tận nơi hoặc lấy tại cửa hàng)</p>
+                                </a>
+                            </div>
+                            <div class="sub-nav">
+                                <a href="#">
+                                    <h6> 
+                                    Mua trả qua thẻ
+                                    </h6>
+                                    <p>(thanh toán qua thẻ hoặc ví)</p>
+                                </a>
+                                <a href="#">
+                                    <h6>
+                                    Mua trả góp
+                                    </h6>
+                                    <p>(xét duyệt qua điện thoại)</p>
+                                </a>
+                            </div>
+                        </div>
+                        <b>Thông tin máy:</b>
+                        <p>
+                            <i class="fas fa-check-circle"></i>
+                            Máy mới 100%, đầy đủ phụ kiện từ nhà sản xuất. Sản phẩm có mã SA/A (được Apple Việt Nam phân phối chính thức).
+
+                        </p>
+                        <p>
+                            <i class="fas fa-check-circle"></i>
+                            Máy, Sách HDSD, Cáp sạc USB-C (2 m), Cốc sạc USB-C 30W.
+                            
+                        </p>
+                        <p>
+                            <i class="fas fa-check-circle"></i>
+                            Bảo hành 12 tháng tại trung tâm bảo hành chính hãng Apple Việt Nam. 1 ĐỔI 1 trong 30 ngày nếu có lỗi phần cứng nhà sản xuất. Gia hạn bảo hành thời gian giãn cách
+                            
+                        </p>
+                        <p>
+                            <img src="../image/icon-phone.png" alt="">
+                            Hotline:013355485.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <div id="description">
+        <div class="description-nav">
+            <div class="tab-list-show">
+                <h3 class="tab-option form-style">Đặc điểm nổi bật</h3>
+                <h3 class="tab-option">Thông số cấu hình</h3>
+                <!-- <div class="tab-line">
+        
+                </div> -->
+            </div>
+        </div>
+        
+        <div class="content-text content-active content-showIteam">
+            <div class="firt-text">
+                <!-- <h5>Phụ kiện Công nghệ - Nhũng thiết bị không thể thiếu
+                </h5> -->
+                <p>
+                    Hiệu năng vượt trội - Cân mọi tác vụ từ word, exel đến chỉnh sửa ảnh trên các phần mềm như AI, -PTS <br>
+
+                    Đa nhiệm mượt mà - Ram 8GB cho phép vừa mở trình duyệt để tra cứu thông tin, vừa làm việc trên phần mềm <br>
+
+                    Trang bị SSD 256GB - Cho thời gian khởi động nhanh chóng, tối ưu hoá thời gian load ứng dụng <br>
+
+                    Chất lượng hình ảnh sắc nét - Màn hình Retina cao cấp cùng công nghệ TrueTone cân bằng màu sắc <br>
+
+                    Thiết kế sang trọng - Nặng chỉ 1.29KG, độ dày 16.1mm. Tiện lợi mang theo mọi nơi <br>
+                </p>
+                
+            </div>
+
+            <div class="content-img">
+
+            </div>
+            <div class="firt-text botom-head ">
+                <h6>Macbook Air M1 2020 - Sang trọng, tinh tế, hiệu năng khủng
+                </h6>
+                <p>Là dòng sản phẩm có thiết kế mỏng nhẹ, sang trọng và tinh tế cùng với đó là giá thành phải chăng nên MacBook Air đã thu hút được đông đảo đảo người dùng yêu thích và lựa chọn. Một trong những phiên bản mới nhất mà khách hàng không thể bỏ qua khi đến với NEWTECH đó là MacBook Air M1.
+
+                </p>
+                <p>
+                    MacBook Air M1 256GB 2020 được trang bị màn hình Retina IPS 13.3 inch mang đến nhiều màu sắc hơn lên đến 48% so với những thế hệ trước đó. Bên cạnh đó, màn hình tráng gương tràn viền khiến viền giúp mỏng hơn 50% so với trước đây
+                </p>
+                <p>
+                    Điểm nhấn của MacBook Air M1 256GB 2020 chính là con chip M1. CPU của chip M1 sẽ có 8 nhân, bao gồm 4 nhân hiệu suất cao và 4 nhân hiệu suất thấp mang đến sức mạnh vượt trội cho thiết bị rất. Sức mạnh trên M1 256GB hơn 98% so với các laptop Windows và hiệu năng vượt trội hơn so với các phiên bản Air sử dụng chip Intel.
+                </p>
+                <p>
+                    Nếu bạn muốn sở mua MacBook Air 2020 M1 thì hãy nhanh tay liên hệ đến Hotline: 013355485 hay đến trực tiếp cửa hàng thuộc hệ thống NewTech để tiến hành đặt hàng với mức giá cạnh tranh nhất
+                </p>
+                
+            </div>
+        </div>
+
+        <div class="content-text content-showIteam">
+            <div class="list-config">
+                <ul>
+                    <li class="config-color">
+                        <p class="config-nav-size">Màn hình:</p>
+                        <p>13.3"Retina (2560 x 1600)</p>
+                    </li>
+                    <li>
+                        <p class="config-nav-size">Ram:</p>
+                        <p>8 GB</p>
+                    </li>
+
+                    <li class="config-color">
+                        <p class="config-nav-size">Ổ cứng:</p>
+                        <p>256 GB SSD</p>
+                    </li>
+                    <li >
+                        <p class="config-nav-size">Hệ điều hành:</p>
+                        <p>Mac OS</p>
+                    </li>
+
+                    <li class="config-color">
+                        <p class="config-nav-size">Pin:</p>
+                        <p>Khoảng 10 tiếng</p>
+                    </li>
+                    <li >
+                        <p class="config-nav-size">Trọng lượng:</p>
+                        <p>1.29 kg</p>
+                    </li>
+                    
+                    <li class="config-color">
+                        <p class="config-nav-size">Độ phân giải</p>
+                        <p>Retina</p>
+                    </li>
+                    <li >
+                        <p class="config-nav-size">Bluetooth:</p>
+                        <p>	v5.0</p>
+                    </li>
+
+                    <li class="config-color">
+                        <p class="config-nav-size">Công nghệ âm thanh:</p>
+                        <p>	6 Loa</p>
+                    </li>
+                    <li >
+                        <p class="config-nav-size">Tính năng đặc biệt:</p>
+                        <p> Bảo mật vân tay, Nhận diện khuôn mặt</p>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="show-text">
+            <button class="show-text-height">Xem thêm
+                <i class="fas fa-chevron-down"></i>
+            </button>
+
+        </div>
+    </div>
+
+    <div id="iteam-alike">
+        <div class="description-nav">
+            <div class="tab-list-show">
+                <h3>Sản phẩm tương tự</h3>
+
+                
+            </div>
+
+
+                <div class="show-grid container slice-1">
+                    
+    
+                    <div class="showIteamGrid showIteamGrid-sale row slide1">
+                        <!-- <i class="showLeft map-left fas fa-chevron-left"></i> -->
+    
+                        <div class="iteam iteam2 col-6  col-md-3 col-sm-6 mt-3">
+                            <div class="styleIteam">
+                                <div class="saleImg">
+                                    <!-- <p class="saleImg-iteam">Sale 20%</p> -->
+                                    <img src="../image/Lap/laptop-lenovo-ideapad-3.png" alt="">
+                                </div>
+                                <div class="showIteam-coin">
+                                    <p>Laptop Lenovo Ideapad 3- Chính hãng</p>
+                                    <div class="iteamCoin">
+                                        <p class="coin">14.400.000đ</p>
+                                        <div class="sale-iteamCoin">
+                                            <p>15.900.000đ</p>
+                                            
+                                        </div>
+                                    </div>
+                                    <p>Phần Mềm Diệt Virus, Office chính hãng chỉ từ 150k</p>
+                                    </div>
+                            </div>
+            
+                        </div>
+                        <div class="iteam iteam2 col-6  col-md-3 col-sm-6 mt-3">
+                            <div class="styleIteam">
+                                <div class="saleImg">
+                                    <!-- <p class="saleImg-iteam">Sale 20%</p> -->
+                                    <img src="../image/Lap/vivobook.png" alt="">
+                                </div>
+                                <div class="showIteam-coin">
+                                    <p>Laptop ASUS Vivobook  - Nhập khẩu chính hãng</p>
+                                    <div class="iteamCoin">
+                                        <p class="coin">19.990.000đ</p>
+                                        <div class="sale-iteamCoin">
+                                            <p>21.210.000đ</p>
+                                            
+                                        </div>
+                                    </div>
+                                    <p>Phần Mềm Diệt Virus, Office chính hãng chỉ từ 150k </p>
+                                    </div>
+                            </div>
+            
+                        </div>
+                        <div class="iteam iteam-style2 iteam2 col-6  col-md-3 col-sm-6 mt-3">
+                            <div class="styleIteam">
+                                <div class="saleImg">
+                                    <!-- <p class="saleImg-iteam">Sale 20%</p> -->
+                                    <img src="../image/Lap/Macbook Pro 13.png" alt="">
+                                </div>
+                                <div class="showIteam-coin">
+                                    <p>Apple M1 - MacBook Pro 13''2020 - Chính hãng Apple Việt Nam</p>
+                                    <div class="iteamCoin">
+                                        <p class="coin">36.000.000đ
+                                        </p>
+                                        <div class="sale-iteamCoin">
+                                            <p>38.000.000đ
+                                            </p>
+                                            
+                                        </div>
+                                    </div>
+                                    <p>Thu cũ đổi mới trọn đời</p>
+                                    </div>
+                            </div>
+            
+                        </div>
+                        <div class="iteam iteam-style2 iteam2 col-6  col-md-3 col-sm-6 mt-3">
+                            <div class="styleIteam">
+                                <div class="saleImg">
+                                    <!-- <p class="saleImg-iteam">Sale 20%</p> -->
+                                    <img src="../image/Lap/asusZenbook.jpg" alt="">
+                                </div>
+                                <div class="showIteam-coin">
+                                    <p>Laptop ASUS ZenBook UX325EA-KG363T</p>
+                                    <div class="iteamCoin">
+                                        <p class="coin">23.200.000đ</p>
+                                        <div class="sale-iteamCoin">
+                                            <p>25.290.000đ</p>
+                                           
+                                        </div>
+                                    </div>
+                                    <p>Phần Mềm Diệt Virus, Office chính hãng chỉ từ 150k</p>
+                                    </div>
+                            </div>
+            
+                        </div>
+
+                        <div class="iteam iteam2 col-6 col-lg-4 col-md-4  mt-3">
+                            <div class="styleIteam">
+                                <a href="../page/showIteam.html">
+
+                                    <div class="saleImg">
+                                        <!-- <p class="saleImg-iteam">Sale 20%</p> -->
+                                        <img src="../image/Lap/hp-victus.png" alt="">
+                                    </div>
+                                    <div class="showIteam-coin">
+                                        <p>Laptop HP Gaming VICTUS 16-e0175AX - 4R0U8PA - Chính hãng</p>
+                                        <div class="iteamCoin">
+                                            <p class="coin">23.890.000đ
+                                            </p>
+                                            <div class="sale-iteamCoin">
+                                                <p>24.990.000đ
+                                                </p>
+                                                <div class="lineCoin">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p>Phần Mềm Diệt Virus, Office chính hãng chỉ từ 150k</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                       
+                        
+                    </div>
+                   
+                </div>
+            
+        </div>
+    </div>
+
+    <div id="form-input">
+        <div class="tab-list-show">
+            <h3>Hỏi đáp và đánh giá sản phẩm</h3>  
+        </div>
+
+        <div class="form-input-list ">
+            <form action="" class="login-iteam">
+                <div class="name-email">
+                    <div class=" email ">
+                        <p>Họ và tên</p>
+                        <input name="fullname" type="text" placeholder="Nhập tên đầy đủ " class="fullname-sub ">
+                        <span class="form-mesage"></span>
+                    </div>
+                    <div class=" email ">
+                        <p>Email</p>
+                        <input name="email" type="email" placeholder="Nhập email " class="email-sub ">
+                        <span class="form-mesage"></span>
+
+                    </div>
+                </div>
+                <div class="com">
+                    <p>Comment</p>
+                    <textarea name="comments" rows="9" cols="80" placeholder="Thông tin cần điền" class="comment-sub delete-text"> </textarea>
+                    <span class="form-mesage "></span>
+                </div>
+    
+                <div class="submit-form">
+                    <button>
+                        Gửi đánh giá
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- phần comment -->
+    <div id="render-coment" >
+        <div class="user-coment">
+            <div class="customer">
+                <div class="description-nav">
+                    <img src="../image/piano.jpg" alt="">
+                </div>
+                <div class="content-text_comment">
+                   <h5>Nguyễn Tài</h5>
+                   <p>Máy này có tháo rời màn hình ra để sài như ipad đc kh shop</p>
+                   <span>
+                    <p>
+                        <i class="far fa-clock"></i>
+                        3 giờ trước
+                    </p>
+                    <a href="#form-input">Trả lời</a>
+                   </span>
+                       
+                </div>
+            </div>
+
+            <div class="shop-anser customer">
+                <div class="description-nav ">
+                    <img src="../image/LogoBrand.png" alt="">
+                </div>
+                <div class="content-text_comment">
+                   <h5>NewTech</h5>
+                   <p>Chào Tài, <br>
+                    Sản phẩm không hỗ trợ tháo rời màn hình bạn nha. Thông tin đến bạn ạ!</p>
+                   <span>
+                    <p>
+                        <i class="far fa-clock"></i>
+                        3 giờ trước
+                    </p>
+                    <a href="#form-input">Trả lời</a>
+                   </span>
+                       
+                </div>
+            </div>
+        </div>
+
+        <div class="user-coment">
+            <div class="customer">
+                <div class="description-nav">
+                    <img src="../image/piano.jpg" alt="">
+                </div>
+                <div class="content-text_comment">
+                   <h5>Nguyễn Tài</h5>
+                   <p>Máy này có tháo rời màn hình ra để sài như ipad đc kh shop</p>
+                   <span>
+                    <p>
+                        <i class="far fa-clock"></i>
+                        3 giờ trước
+                    </p>
+                    <a href="#form-input">Trả lời</a>
+                   </span>
+                       
+                </div>
+            </div>
+
+            <div class="shop-anser customer">
+                <div class="description-nav ">
+                    <img src="../image/LogoBrand.png" alt="">
+                </div>
+                <div class="content-text_comment">
+                   <h5>NewTech</h5>
+                   <p>Chào Tài, <br>
+                    Sản phẩm không hỗ trợ tháo rời màn hình bạn nha. Thông tin đến bạn ạ!</p>
+                   <span>
+                    <p>
+                        <i class="far fa-clock"></i>
+                        3 giờ trước
+                    </p>
+                    <a href="#form-input">Trả lời</a>
+                   </span>
+                       
+                </div>
+            </div>
+        </div>
+
+        <div class="user-coment">
+            <div class="customer">
+                <div class="description-nav">
+                    <img src="../image/piano.jpg" alt="">
+                </div>
+                <div class="content-text_comment">
+                   <h5>Nguyễn Tài</h5>
+                   <p>Máy này có tháo rời màn hình ra để sài như ipad đc kh shop</p>
+                   <span>
+                    <p>
+                        <i class="far fa-clock"></i>
+                        3 giờ trước
+                    </p>
+                    <a href="#form-input">Trả lời</a>
+                   </span>
+                       
+                </div>
+            </div>
+
+            <div class="shop-anser customer">
+                <div class="description-nav ">
+                    <img src="../image/LogoBrand.png" alt="">
+                </div>
+                <div class="content-text_comment">
+                   <h5>NewTech</h5>
+                   <p>Chào Tài, <br>
+                    Sản phẩm không hỗ trợ tháo rời màn hình bạn nha. Thông tin đến bạn ạ!</p>
+                   <span>
+                    <p>
+                        <i class="far fa-clock"></i>
+                        3 giờ trước
+                    </p>
+                    <a href="#form-input">Trả lời</a>
+                   </span>
+                       
+                </div>
+            </div>
+        </div>
+
+        <div class="user-coment">
+            <div class="customer">
+                <div class="description-nav">
+                    <img src="../image/piano.jpg" alt="">
+                </div>
+                <div class="content-text_comment">
+                   <h5>Nguyễn Tài</h5>
+                   <p>Máy này có tháo rời màn hình ra để sài như ipad đc kh shop</p>
+                   <span>
+                    <p>
+                        <i class="far fa-clock"></i>
+                        3 giờ trước
+                    </p>
+                    <a href="#form-input">Trả lời</a>
+                   </span>
+                       
+                </div>
+            </div>
+
+            <div class="shop-anser customer">
+                <div class="description-nav ">
+                    <img src="../image/LogoBrand.png" alt="">
+                </div>
+                <div class="content-text_comment">
+                   <h5>NewTech</h5>
+                   <p>Chào Tài, <br>
+                    Sản phẩm không hỗ trợ tháo rời màn hình bạn nha. Thông tin đến bạn ạ!</p>
+                   <span>
+                    <p>
+                        <i class="far fa-clock"></i>
+                        3 giờ trước
+                    </p>
+                    <a href="#form-input">Trả lời</a>
+                   </span>
+                       
+                </div>
+            </div>
+        </div>
+
+        <div class="user-coment">
+            <div class="customer">
+                <div class="description-nav">
+                    <img src="../image/piano.jpg" alt="">
+                </div>
+                <div class="content-text">
+                   <h5>Nguyễn Tài</h5>
+                   <p>Máy này có tháo rời màn hình ra để sài như ipad đc kh shop</p>
+                   <span>
+                    <p>
+                        <i class="far fa-clock"></i>
+                        3 giờ trước
+                    </p>
+                    <a href="#form-input">Trả lời</a>
+                   </span>
+                       
+                </div>
+            </div>
+
+            <div class="shop-anser customer">
+                <div class="description-nav ">
+                    <img src="../image/LogoBrand.png" alt="">
+                </div>
+                <div class="content-text">
+                   <h5>NewTech</h5>
+                   <p>Chào Tài, <br>
+                    Sản phẩm không hỗ trợ tháo rời màn hình bạn nha. Thông tin đến bạn ạ!</p>
+                   <span>
+                    <p>
+                        <i class="far fa-clock"></i>
+                        3 giờ trước
+                    </p>
+                    <a href="#form-input">Trả lời</a>
+                   </span>
+                       
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="login-user hide">
+        <div id="login">
+            <div class="box-login">
+                <div class="show-login">
+                    <h3 class="name-sub active-color">Đăng nhập </h3>
+                    <h3 class="name-sub "> Đăng ký</h3>
+                </div>
+                    <hr style="margin: 5px; height:2px;border-width:0;;background-color:black">
+                <div class="login-iteam active">
+                    <div class="email ">
+                        <p>Tài khoản
+                        </p>
+                        <input type="text" placeholder="" class="fullname-sub">
+
+                        <span class="form-mesage"></span>
+                    </div>
+                    <div class="email ">
+                        <p>Mật khẩu
+                        </p>
+                        <input type="password" placeholder="" class="password">
+                        <span class="form-mesage"></span>
+
+                    </div>
+                    <div class="check-input">
+                        <input type="checkbox"> Nhớ mật khẩu
+                    </div>
+                </div>
+                <div class="login-iteam ">
+                    <div class="email ">
+                        <p>Tài khoản
+                        </p>
+                        <input type="text" placeholder="" class="fullname-sub">
+                        <span class="form-mesage"></span>
+
+                    </div>
+                    <div class="email ">
+                        <p>Email
+                        </p>
+                        <input type="text" placeholder="" class="email-sub">
+                        <span class="form-mesage"></span>
+
+                    </div>
+                    <div class="email ">
+                        <p>Mật khẩu
+                        </p>
+                        <input type="text" placeholder="" class="password">
+                        <span class="form-mesage"></span>
+
+                    </div>
+                    <div class="email ">
+                        <p>Nhập lại mật khẩu
+                        </p>
+                        <input type="text" placeholder="" class="repeat-password">
+                        <span class="form-mesage"></span>
+
+                    </div>
+                    <i>Chú ý điền đầy đủ thông tin</i>
+                </div>
+    
+                <div class="submit-log">
+                    <button class="sub-btn active">Đăng nhập</button>
+                    <button class="sub-btn ">Đăng ký</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="../js/app.js">
+    </script>
+    
+    <script src="../js/app2.js"></script>
+    <script   src="../js/main.js"></script>
+    <script src="../js/show.js"></script>
+    <script src="../js/login.js"></script>
+
+
+    <script src="../js/validaterlogin.js"></script>
+    <script >
+        Validater({
+            form:".login-iteam",
+            error: ".form-mesage",
+            rule:[
+                Validater.isrequired("#login .login-iteam .email .fullname-sub" ,"vui lòng nhập tên của bạn"),
+                
+                // Validater.isemail("#login .login-iteam .email .email-sub" ,"Vui lòng nhập email"),
+                // Validater.ispassword("#login .login-iteam .email .password", 8),
+                // Validater.isrequired("#login .login-iteam .email .repeat-password" ,"Giá trị nhập vào không chính xác"),
+                // Validater.isrepeatword("#login .login-iteam .email .repeat-password",
+                // function(){
+                //     return document.querySelector("#login .login-iteam .email .repeat-password").value
+                // },
+                //     "Mật khẩu nhập lại không chính xác"),
+                Validater.isrequired("#form-input .form-input-list .name-email .email .fullname-sub" ,"vui lòng nhập tên của bạn"),
+                Validater.isemail("#form-input .form-input-list .name-email .email .email-sub" ,"Vui lòng nhập email"),
+                Validater.isrequired("#form-input .form-input-list .name-email .email .email-sub" ,"Vui lòng nhập email"),
+                Validater.isrequired("#form-input .form-input-list .com .comment-sub"),
+                Validater.isemail("#login .login-iteam .email .email-sub","Vui lòng nhập email")
+                ],
+
+            onsubmit:function(data){
+                return data
+            },
+            
+
+        })
+    </script>
+</body>

@@ -1,0 +1,239 @@
+@media (max-width:522px) {
+    #content .content-iteam .content-grid .content-styleIteam .sub-total >a h6,
+    #content .content-iteam .content-grid .content-styleIteam .sub-nav a h6{
+        font-size: 18px;
+    }
+    header #header-nav{
+        height: 70px;
+    }
+    header #header-nav .header-icon{
+        line-height: 70px;
+    }
+    header #header-nav .header-logo img{
+        width: 70px;
+    }
+    header #header-nav .header-input .style-input{
+        height: 30px;
+    }
+    header #header-nav .header-input .style-input .header-inputElement{
+        padding: 5px;
+    }
+   
+    section #showIteam .iteam .styleIteam {
+        min-height: 350px;
+    }
+    section #bandner .bandner-img{
+        max-height: 146px;
+    }
+    section #showIteam .iteam .styleIteam .saleImg>img{
+        height: 125px;
+    }
+    section #iteamLap .lapHead{
+        height: 60px;
+    }
+    section #iteamLap .lapHead h3{
+        line-height: 60px;
+        font-size: 20px;
+    }
+}
+@media  (max-width:767px){
+    header #header-nav{
+        height: 70px;
+    }
+    header #header-nav .header-icon{
+        line-height: 70px;
+    }
+    header #header-nav .header-logo img{
+        width: 70px;
+    }
+    header #header-nav .header-input .style-input{
+        height: 30px;
+    }
+    header #header-nav .header-input  input{
+        padding-right: 0;
+        width: 116px;
+    }
+    header #header-nav .header-icon img {
+        margin: 0 0.5em;
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+    }
+    section .content-text, 
+    section #iteamLap{
+        margin: 30px 0;
+    }
+    section #bandner .bandner-img{
+        max-height: 220px;
+    }
+    section #bandner .sub-text h3{
+        margin-top:10%;
+    }
+    section .flash-sale{
+        margin-left: 6%;
+    }
+    
+    section #showIteam .iteam .styleIteam .showIteam-coin .note-Iteam p{
+        font-size: 10px;
+    }
+    
+
+    header #header-option .option-bar {
+        display: block;
+    }
+    header #header-option .option-bar i,
+    header #header-option .option-icon .style-icon,
+    header #header-option .option-icon i,
+    header #header-option .option-bar i{
+        font-size: 24px;
+        line-height: 64px;
+        margin: 0 5px;
+    }
+    .icon-hide,
+    section #showIteam .showIteamGrid .iteam-style2,
+    section #iteamLap .layout-gridOption,
+    header #header-option .option-icon i:nth-child(2),
+    header #header-option > ul{
+        display: none;
+    }
+    section #showIteam .iteam .styleIteam .showIteam-coin p:last-child{
+        font-size: 10px;
+    }
+   
+    header #header-option{
+        height: 64px;
+    }
+    header #header-option .option-icon{
+        margin-right: 6%;
+    }
+    header #header-option .option-bar{
+        margin-left: 6%;
+    }
+    /* section #iteamLap , */
+
+    header #header-option {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    section .next-page .page-nunber{
+        width: 28px;
+        height: 32px;
+    }
+    section .header-text{
+        font-size: 28px;
+    }
+    section .content-text{
+        margin: 30px 4%;
+    }
+    section .content-text .content-img{
+        height: 160px;
+    }
+    section #showIteam .show-grid .Option-filter{
+        justify-content: space-between;
+    }
+    section #showIteam .iteam .styleIteam .showIteam-coin .iteamCoin,
+    section #showIteam .show-grid .Option-filter .filter{
+        display: block;
+    }
+    
+    section #showIteam .iteam .styleIteam .showIteam-coin .iteamCoin .sale-iteamCoin{
+        margin: 0;
+    }
+    section #showIteam .iteam .styleIteam{
+        margin: 0 0.5em;
+    }
+    #footer .footer-show{
+        display: block;
+        text-align: center;
+    }
+    #footer .show-company >img{
+        height: 135px;
+        width: 135px;
+    }
+    #footer .footer-show .show-service2 .icon-social i{
+        font-size: 30px;
+    }
+    
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    section #showIteam .iteam .styleIteam{
+        margin: 0 0.5em;
+    }
+    section #bandner .bandner-img{
+        max-height: 266px;
+    }
+    section #bandner .bandner-img{
+        /* height: 30%; */
+    }
+    section .flash-sale{
+        margin-left: 50px;
+        
+    }
+    header #header-nav .header-input img{
+        position:absolute;
+        right: 34%;
+        top:3%; 
+    }
+    header #header-nav .header-icon img {
+        margin: 0 1em;
+        cursor: pointer;
+        width: 31px;
+        height: 34px;
+    }
+    header #header-option ul li >a{
+        font-size: 20px;
+       
+    }
+    section #showIteam .iteam .styleIteam{
+        /* margin: 0 10px; */
+    }
+    section #showIteam .iteam .styleIteam .saleImg>img {
+        height: 125px;
+    }
+    section #showIteam .iteam .styleIteam .showIteam-coin .iteamCoin{
+        display: block;
+    }
+    section #showIteam .iteam .styleIteam .showIteam-coin .iteamCoin .sale-iteamCoin{
+        margin-left: 0;
+    }
+    section #showIteam .iteam .styleIteam .showIteam-coin >p{
+        font-size: 14px;
+    }
+    section #showIteam .iteam .styleIteam .showIteam-coin  span{
+        font-size: 10px;
+    }
+    #option .option-style .option-iteam .option-sub >p{
+        font-size: 20px;
+    }
+    section .content-text, 
+    section #iteamLap{
+        margin: 30px 8% 0;
+    }
+    section .content-text .content-img{
+        height: 330px;
+    }
+    /* section #showIteam .show-grid >select{
+        margin-left: 76%;
+    } */
+    section .next-page .page-nunber{
+        width: 29px;
+        height: 30px;
+    }
+    #footer .show-company >img{
+        width: 146px;
+        height: 146px;
+    }
+    #footer .footer-show .show-service2 .icon-social i{
+        font-size: 32px;
+    }
+}
+@media (min-width: 992px) and (max-width:1200px){
+    section #showIteam .iteam .styleIteam .showIteam-coin .iteamCoin{
+        display: block;
+    }
+    section #showIteam .iteam .styleIteam .showIteam-coin .iteamCoin .sale-iteamCoin{
+        margin: 0;
+    }
+}   

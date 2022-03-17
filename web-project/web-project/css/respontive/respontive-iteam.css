@@ -15,10 +15,8 @@
     header #header-nav .header-input .style-input{
         height: 30px;
     }
-    header #header-nav .header-input .style-input .header-inputElement{
-        padding: 5px;
-    }
-   
+    
+    /* header #header-nav .header-input .style-input .header-inputElement */
     section #showIteam .iteam .styleIteam {
         min-height: 350px;
     }
@@ -44,7 +42,7 @@
         line-height: 70px;
     }
     header #header-nav .header-logo img{
-        width: 70px;
+        width: 56px;
     }
     header #header-nav .header-input .style-input{
         height: 30px;
@@ -53,12 +51,12 @@
         padding-right: 0;
         width: 116px;
     }
-    header #header-nav .header-icon img {
+    /* header #header-nav .header-icon img {
         margin: 0 0.5em;
         cursor: pointer;
         width: 20px;
         height: 20px;
-    }
+    } */
     section .content-text, 
     section #iteamLap{
         margin: 30px 0;
@@ -77,17 +75,27 @@
         font-size: 10px;
     }
     
-
+    header #header-nav .header-input .style-input .header-inputElement{
+        padding: 5px;
+    }
     header #header-option .option-bar {
         display: block;
     }
-    header #header-option .option-bar i,
+    
     header #header-option .option-icon .style-icon,
     header #header-option .option-icon i,
     header #header-option .option-bar i{
         font-size: 24px;
         line-height: 64px;
         margin: 0 5px;
+    }
+    header #header-option .option-bar i{
+        padding: 0 10px;
+        opacity: 0.7;
+    }
+    header #header-option .option-bar i:hover{
+        opacity: 1;
+        /* transform: rotatez(360deg); */
     }
     .icon-hide,
     section #showIteam .showIteamGrid .iteam-style2,
@@ -176,14 +184,14 @@
         right: 34%;
         top:3%; 
     }
-    header #header-nav .header-icon img {
+    /* header #header-nav .header-icon img {
         margin: 0 1em;
         cursor: pointer;
         width: 31px;
         height: 34px;
-    }
+    } */
     header #header-option ul li >a{
-        font-size: 20px;
+        font-size: 16px;
        
     }
     section #showIteam .iteam .styleIteam{
@@ -226,7 +234,19 @@
         height: 146px;
     }
     #footer .footer-show .show-service2 .icon-social i{
-        font-size: 32px;
+        font-size: 20px;
+    }
+    #footer .footer-show .show-company h6:nth-child(1){
+        font-size: 16px;
+    }
+    #footer .show-company p{
+        font-size: 14px;
+    }
+    #footer .footer-show ul li{
+        font-size: 12px;
+    }
+    #footer .footer-show ul p{
+        font-size: 14px;
     }
 }
 @media (min-width: 992px) and (max-width:1200px){

@@ -1,8 +1,8 @@
 $('.img-nav').slick({
     slidesToShow: 4,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     infinity:true,
-    // autoplay: true,
+    autoplay: true,
     autoplaySpeed: 2000,
   
     arrows:true,
@@ -16,5 +16,6 @@ $('.prent-img').slick({
     infinity:true,
     arrows:false,
     autoplay: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 2000,
+    // dots:true,
 })

@@ -124,6 +124,10 @@
         margin-left: 0;
         width: 100%;
     }
+    #iteam-alike .tab-list-show{
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
     #iteam-alike .description-nav .show-grid .iteam .styleIteam .showIteam-coin .iteamCoin{
         display: block;
     }
@@ -157,7 +161,7 @@
     
     
     header #header-option ul li >a {
-        font-size: 18px;
+        font-size: 16px;
     }
     .sub-text h3{
         font-size: 20px;

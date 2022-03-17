@@ -41,8 +41,7 @@
     header #header-nav .header-icon img {
         margin: 0 0.5em;
         cursor: pointer;
-        width: 20px;
-        height: 20px;
+        
     }
     section #showIteam .show-screen-ph  ul,
     header #header-option {
@@ -102,14 +101,9 @@
         right: 34%;
         top:3%; 
     }
-    header #header-nav .header-icon img {
-        margin: 0 1em;
-        cursor: pointer;
-        width: 24px;
-        height: 34px;
-    }
+    
     header #header-option ul li >a{
-        font-size: 20px;
+        font-size: 16px;
        
     }
     section #iteamLap {
@@ -130,6 +124,22 @@
     }
     #content .content-iteam .content-text .style-text .style-list_text{
         font-size: 12px;
+    }
+    #footer .footer-show .show-company h6:nth-child(1) {
+        font-size: 16px;
+    }
+    #footer .show-company >img {
+        width: 146px;
+        height: 146px;
+    }   
+    #footer .footer-show ul p{
+        font-size: 14px;
+    }
+    #footer .footer-show ul li{
+        font-size: 12px;
+    }
+    #footer .footer-show .show-service2 .icon-social i{
+        font-size: 20px;
     }
 }
     

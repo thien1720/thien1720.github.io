@@ -138,7 +138,7 @@
         min-height: 320px;
     }
     #option .option-style .option-iteam .option-sub >p{
-        font-size: 18   px;
+        font-size: 18px;
     }
     section #showIteam .iteam .styleIteam .showIteam-coin .iteamCoin .sale-iteamCoin{
         margin-left: 0;
@@ -177,27 +177,16 @@
     header #header-nav .header-icon img {
         margin: 0 0.5em;
         cursor: pointer;
-        /* width: 24px;
-        height: 34px; */
     }
     header #header-option ul li >a{
-        font-size: 20px;
-       
+        font-size: 16px;  
     }
     section #iteamLap {
-        margin: 50px 4% 0;    
-        
+        margin: 50px 4% 0;       
     }
-    /* section #showIteam .iteam .styleIteam{
-        margin: 0 10px ;
-    } */
     header #header-option .option-icon >i {
-        font-size: 30px;
-       
+        font-size: 30px;  
     }
-    /* section #bandner{
-        height: 254px;
-    } */
     section .flash-sale{
         margin-left: 50px;
         
@@ -227,6 +216,19 @@
     }
     section #showIteam .iteam .styleIteam .showIteam-coin .iteamCoin .sale-iteamCoin{
         margin: 0;
+    }
+    #footer .show-company >img {
+        width: 146px;
+        height: 146px;
+    }   
+    #footer .footer-show ul p{
+        font-size: 14px;
+    }
+    #footer .footer-show ul li{
+        font-size: 12px;
+    }
+    #footer .footer-show .show-service2 .icon-social i{
+        font-size: 20px;
     }
 }
 @media (min-width:992px) and (max-width:1200px) {

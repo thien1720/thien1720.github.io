@@ -104,7 +104,7 @@
 }
 @media (min-width: 768px) and (max-width: 979px) {
     header #header-option ul li >a {
-        font-size: 18px;
+        font-size: 16px;
     }
     #show-iteam .sub-text h3{
         font-size: 20px;

@@ -7,7 +7,19 @@ const boxOptions = $$(".style-option")
 const boxColor = $$(".style-color")
 const tabOption = $$(".tab-option")
 const tabContents = $$("#description .content-text")
-// console.log(tabContents)
+const listImgs = $$('.img-nav_style')
+const prentImg = $('.img-feature')
+console.log(prentImg.src)
+listImgs.forEach(function(listImg){
+    // console.log(listImg)
+    listImg.addEventListener("click",e =>{
+        prentImg.src = e.target.getAttribute('src')
+        
+    })
+})
+
+
+
 
 tabOption.forEach((selecter, index) => {
     let tabContent = tabContents[index]

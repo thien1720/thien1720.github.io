@@ -14,8 +14,25 @@ const filterApply = $("section #showIteam .show-grid .Option-filter .content-fil
 const contentText = $(".content-text")
 const contentIteam = $$('.content-showIteam')
 const showText = $(".show-text")
-// console.log(contentIteam)
+const back = $('.back-top')
+console.log(back)
 
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  if (window.pageYOffset > 100) {
+    back.classList.add('back-style')
+  }else{
+    back.classList.remove('back-style')
+
+  }
+}
+back.addEventListener('click',function(){
+    // console.log('thien')
+    document.body.scrollTop = 0
+    document.documentElement.scrollTop = 0
+    
+})
 
 navBar.addEventListener("click" , menuBar)
 existsBar.addEventListener("click",unAcitve)
@@ -23,6 +40,7 @@ showText.addEventListener("click",showContent)
 showText.addEventListener('click',showIteams)
 filtered.addEventListener("click",listFilter)
 filterApply.addEventListener("click",existsFilter)
+
 
 // let isSuccesed = true
 
